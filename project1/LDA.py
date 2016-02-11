@@ -5,7 +5,7 @@ QDA and LDA for Stat 557
 
 import numpy as np
 from scipy.linalg import eig, inv
-from numpy import diag, real, transpose, log, dot
+from numpy import diag, real, transpose, log, dot, sqrt
 
 
 class DA(object):
@@ -51,21 +51,22 @@ class DA(object):
         """
         self.sampleEstimate()
         delta_k = {}
+        D, U = eig(self.commonCovMatrix)
+
         for K in self.classMember:
-            delta_k[K] = np.dot(np.dot(x, self.commonCovMatrix),
-                                self.classMean[K]) - .5 * np.dot(
-                                np.dot(np.transpose(self.classMean[K]),
-                                       inv(self.commonCovMatrix)),
-                                self.classMean[K]) +\
-                np.log(self.priorProbability[K])
-        print("LDA delta_k", delta_k)
-        return max(delta_k, key=delta_k.get)
+            x_sphered = dot(dot(diag(1/sqrt(real(D))), U.T), x)
+            trans_centroid = dot(dot(diag(1/sqrt(real(D))), U.T),
+                                 self.classMean[K])
+            delta_k[K] = 0.5 * sqrt(sum((x_sphered - trans_centroid) ** 2)) - \
+                log(self.priorProbability[K])
+
+        return min(delta_k, key=delta_k.get)
 
     def eigDecomp(self):
         """
         eigen value decomposition for each class
         returns dictionary of eig vectors and eigen values for each class
-        """
+`        """
         eigen_dict = {}
         for key in self.classCovMatrix:
             eigen_dict[key] = eig(self.classCovMatrix[key])
@@ -124,7 +125,7 @@ if __name__ == "__main__":
     X = np.zeros((1000, 2))
     X[Y == 0] = X1
     X[Y == 1] = X2
-    fit = DA(X, Y, mode="QDA")
+    fit = DA(X, Y, mode="LDA")
     print(fit.xDim, fit.yDim)
     fit.sampleEstimate()
     print(fit.classMean)
