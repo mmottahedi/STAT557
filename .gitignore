@@ -3,4 +3,4 @@ project1/__pycache__/
 *.pyc
 .ipynb_checkpoints/
 project*/.ipynb_checkpoints/
-
+*.csv
