@@ -98,20 +98,25 @@ class DA(object):
         self.accuracy = sum(self.y_hat == self.y) / len(self.y)
         print("accuracy: ", self.accuracy)
 
-    def predict(self, X):
+    def predict(self, X, Y):
         """
-        returns the predicted class labels
-        input: np array
-        output: numpy array
+        return predicted class and error rate
+        parameter:
+            X: input numpy array
+            Y: class label numpy array
+        returns:
+            predicted label and error rate
         """
-        self.y_hat = []
+        y_hat = []
         if self.mode == "LDA":
-            for X in self.x:
-                self.y_hat.append(self.LDA(X))
+            for x in X:
+                y_hat.append(self.LDA(x))
         if self.mode == "QDA":
-            for X in self.x:
-                self.y_hat.append(self.QDA(X))
-        return self.y_hat
+            for x in X:
+                y_hat.append(self.QDA(x))
+
+        error = 1 - sum(Y == y_hat) / len(Y)
+        return y_hat, error
 
 
 if __name__ == "__main__":
@@ -132,5 +137,5 @@ if __name__ == "__main__":
     print("priorProbability: \n ", fit.priorProbability)
     print("common covariance matrix: \n ", fit.commonCovMatrix)
     print(type(fit.commonCovMatrix))
-    y_hat = fit.predict(X)
-    fit.summary()
+    y_hat, error = fit.predict(X, Y)
+    print("error: ", error)

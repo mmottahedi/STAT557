@@ -53,7 +53,7 @@ class PCA(object):
         if n is None:
             n = self.dim[1]
         W = reshape(W, (self.dim[1], self.dim[1]), order='C')
-        self.W = W.T
+        self.W = W
         X_new = dot(self.centerd_x, W.T[:, :n])
         return X_new
 
