@@ -5,3 +5,4 @@ project1/__pycache__/
 project*/.ipynb_checkpoints/
 *.csv
 project1/Rhistory/
+project1/Forest/*.data
