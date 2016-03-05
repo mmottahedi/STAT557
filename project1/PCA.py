@@ -2,8 +2,9 @@
 Principle Component Analysis
 """
 
-from numpy import shape, mean, var, dot, abs, real, reshape
+from numpy import shape, mean, var, dot, abs, real, reshape, array
 from scipy.linalg import eig
+from collections import OrderedDict
 
 
 class PCA(object):
@@ -30,16 +31,19 @@ class PCA(object):
             sorted eigen values/vectors tuple
          """
         eigval, eigvec = eig(dot(self.centerd_x.T, self.centerd_x))
-        eig_pairs = [(abs(eigval[i]), eigvec[:, i]) for i in range(len(eigval))]
-        eig_pairs.sort(reverse=True)
+        # eig_pairs = [(abs(eigval[i]), eigvec[:, i]) for i in range(len(eigval))]
 
-        return eig_pairs
+        eig_pairs = {abs(eigval[i]): eigvec[:, i] for i in range(len(eigval))}
+        #print(shape(eig_pairs))
+        # eig_pairs.sort(reverse=True)
+
+        return OrderedDict(sorted(eig_pairs.items(), reverse=True))
 
     def summary(self, n=None):
 
         pairs = self.fit()
-        d = [real(i[0]) for i in pairs]
-        self.d = reshape(d, (1, self.dim[1]))
+        d = [i for i,j in pairs.items()]
+        #self.d = reshape(d, (1, self.dim[1]))
 
         if n is None:
             n = self.dim[1]
@@ -49,10 +53,11 @@ class PCA(object):
 
     def transform(self, n=None):
         pairs = self.fit()
-        W = [i[1] for i in pairs]
+        W = [j for i,j in pairs.items()]
         if n is None:
             n = self.dim[1]
-        W = reshape(W, (self.dim[1], self.dim[1]), order='C')
+       #W = reshape(W, (self.dim[1], self.dim[1]), order='C')
+        W = array(W)
         self.W = W
         X_new = dot(self.centerd_x, W.T[:, :n])
         return X_new
@@ -63,14 +68,17 @@ class PCA(object):
 
 if __name__ == "__main__":
 
-    from numpy.random import seed, multivariate_normal
+    import pandas as pd
+    import numpy as np
 
-    seed(1234)
-    means = [0, 0]
-    cov = [[2, 0], [0, 2]]
-    data = multivariate_normal(means, cov, 20000)
-    pca = PCA(data)
-    pca.fit()
-    print("summary \n ", pca.summary())
-    pca.transform()
-    print(pca.decomp())
+    train = pd.read_csv("Forest/train.csv")
+    test = pd.read_csv("Forest/test.csv")
+
+    xtrain = train.iloc[:, 1:-1]
+    ytrain = train.iloc[:, -1]
+
+    xtest = test.iloc[:, 1:-1]
+    ytest = test.iloc[:, -1]
+
+    pca = PCA(xtrain.values)
+    print(pca.summary())

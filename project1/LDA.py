@@ -30,6 +30,7 @@ class DA(object):
         self.priorProbability = {}
         self.classCovMatrix = {}
         self.commonCovMatrix = None
+        self.eigen_dict = {}
 
     def sampleEstimate(self):
         """
@@ -42,6 +43,10 @@ class DA(object):
             self.classCovMatrix[K] = np.cov(np.transpose(classK_data))
         self.commonCovMatrix = np.cov(np.transpose(self.x))
 
+    def fit(self):
+        self.sampleEstimate()
+        self.eigen_dict = self.eigDecomp()
+
     def LDA(self, x):
         """
         inputs:
@@ -49,7 +54,7 @@ class DA(object):
         output:
             delta_k: dictionary detla for each class
         """
-        self.sampleEstimate()
+        #self.sampleEstimate()
         delta_k = {}
         D, U = eig(self.commonCovMatrix)
 
@@ -80,8 +85,8 @@ class DA(object):
             maximum delta between classes
         """
         delta_k = {}
-        self.sampleEstimate()
-        eigen_dict = self.eigDecomp()
+        # self.sampleEstimate()
+        eigen_dict = self.eigen_dict
         for K in self.classMember:
             D_k = diag(real(eigen_dict[K][0]))
             U_k = eigen_dict[K][1]
