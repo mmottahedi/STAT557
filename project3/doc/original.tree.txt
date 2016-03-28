@@ -1,0 +1,3011 @@
+Column c2: x >= 8?
+yes -> Column s1: x >= 2?
+		yes -> Column c4: x >= 7?
+				yes -> Column s5: x >= 2?
+						yes -> Column s4: x >= 2?
+								yes -> Column c3: x >= 8?
+										yes -> Column c2: x >= 10?
+												yes -> Column c4: x >= 10?
+														yes -> Column c3: x >= 10?
+																yes -> Column c5: x >= 9?
+																		yes -> Column s2: x >= 2?
+																				yes -> Column c1: x >= 6?
+																						yes -> Column s2: x >= 4?
+																								yes -> Column s1: x >= 4?
+																										yes -> {0: 2}
+																										no  -> Column c1: x >= 9?
+																												yes -> {4: 2}
+																												no  -> {2: 1}
+																								no  -> Column s1: x >= 4?
+																										yes -> Column c1: x >= 9?
+																												yes -> {2: 2}
+																												no  -> {1: 1}
+																										no  -> {1: 2}
+																						no  -> Column s1: x >= 4?
+																								yes -> Column c1: x >= 2?
+																										yes -> {0: 1}
+																										no  -> {9: 1}
+																								no  -> Column c1: x >= 5?
+																										yes -> {3: 1}
+																										no  -> {1: 1}
+																				no  -> Column c5: x >= 11?
+																						yes -> {2: 2}
+																						no  -> {1: 4}
+																		no  -> Column c1: x >= 11?
+																				yes -> Column c5: x >= 2?
+																						yes -> Column c3: x >= 12?
+																								yes -> {3: 1}
+																								no  -> {1: 3}
+																						no  -> {9: 2}
+																				no  -> Column c2: x >= 13?
+																						yes -> {1: 4}
+																						no  -> Column c5: x >= 2?
+																								yes -> Column c5: x >= 8?
+																										yes -> {1: 2}
+																										no  -> Column s3: x >= 2?
+																												yes -> Column c3: x >= 11?
+																														yes -> Column s1: x >= 4?
+																																yes -> {1: 2}
+																																no  -> Column c1: x >= 6?
+																																		yes -> {0: 2}
+																																		no  -> Column s1: x >= 3?
+																																				yes -> Column c5: x >= 7?
+																																						yes -> {0: 2}
+																																						no  -> {1: 1}
+																																				no  -> {1: 1}
+																														no  -> {1: 6}
+																												no  -> {0: 3}
+																								no  -> {1: 3}
+																no  -> Column c1: x >= 10?
+																		yes -> {1: 6}
+																		no  -> Column c5: x >= 10?
+																				yes -> {1: 5}
+																				no  -> Column s3: x >= 2?
+																						yes -> Column c1: x >= 8?
+																								yes -> Column s2: x >= 4?
+																										yes -> {1: 1}
+																										no  -> {0: 3}
+																								no  -> {1: 2}
+																						no  -> {0: 2}
+														no  -> Column c1: x >= 9?
+																yes -> Column c5: x >= 4?
+																		yes -> Column c5: x >= 8?
+																				yes -> Column c1: x >= 13?
+																						yes -> {0: 2}
+																						no  -> Column c2: x >= 13?
+																								yes -> Column s2: x >= 4?
+																										yes -> {2: 1}
+																										no  -> {1: 4}
+																								no  -> Column s3: x >= 2?
+																										yes -> Column s1: x >= 3?
+																												yes -> Column s1: x >= 4?
+																														yes -> {0: 1}
+																														no  -> {4: 2}
+																												no  -> {0: 1}
+																										no  -> {2: 1}
+																				no  -> Column s2: x >= 3?
+																						yes -> Column c5: x >= 7?
+																								yes -> Column s1: x >= 4?
+																										yes -> {1: 1}
+																										no  -> {0: 3}
+																								no  -> {1: 3}
+																						no  -> Column s3: x >= 2?
+																								yes -> Column s1: x >= 4?
+																										yes -> {1: 1}
+																										no  -> Column c2: x >= 12?
+																												yes -> {2: 2}
+																												no  -> {1: 1}
+																								no  -> {0: 1}
+																		no  -> Column c5: x >= 3?
+																				yes -> Column s5: x >= 4?
+																						yes -> Column c1: x >= 10?
+																								yes -> {1: 2}
+																								no  -> {0: 1}
+																						no  -> {0: 3}
+																				no  -> {1: 3}
+																no  -> Column c2: x >= 12?
+																		yes -> Column c3: x >= 12?
+																				yes -> {1: 6}
+																				no  -> Column c4: x >= 9?
+																						yes -> {0: 2}
+																						no  -> Column c3: x >= 11?
+																								yes -> {1: 2}
+																								no  -> Column c5: x >= 2?
+																										yes -> Column c5: x >= 4?
+																												yes -> Column s1: x >= 4?
+																														yes -> {1: 3}
+																														no  -> Column c4: x >= 8?
+																																yes -> Column s3: x >= 4?
+																																		yes -> {0: 1}
+																																		no  -> {1: 4}
+																																no  -> {0: 5}
+																												no  -> {0: 2}
+																										no  -> {1: 1}
+																		no  -> Column s3: x >= 2?
+																				yes -> Column c5: x >= 12?
+																						yes -> {0: 2}
+																						no  -> Column c3: x >= 13?
+																								yes -> {1: 2}
+																								no  -> Column s3: x >= 4?
+																										yes -> Column c1: x >= 5?
+																												yes -> {1: 2}
+																												no  -> {0: 1}
+																										no  -> Column s2: x >= 3?
+																												yes -> Column c3: x >= 9?
+																														yes -> {0: 3}
+																														no  -> {2: 1}
+																												no  -> {2: 2}
+																				no  -> {0: 5}
+												no  -> Column c1: x >= 10?
+														yes -> Column s5: x >= 4?
+																yes -> {1: 8}
+																no  -> Column s3: x >= 2?
+																		yes -> Column c3: x >= 9?
+																				yes -> Column c5: x >= 2?
+																						yes -> Column c4: x >= 13?
+																								yes -> {2: 2}
+																								no  -> Column s4: x >= 4?
+																										yes -> {0: 2}
+																										no  -> Column s3: x >= 4?
+																												yes -> {1: 1}
+																												no  -> Column c3: x >= 12?
+																														yes -> Column c2: x >= 9?
+																																yes -> Column s2: x >= 4?
+																																		yes -> {2: 1}
+																																		no  -> {1: 2}
+																																no  -> Column s1: x >= 4?
+																																		yes -> {2: 1}
+																																		no  -> {0: 2}
+																														no  -> {1: 1}
+																						no  -> {1: 2}
+																				no  -> {2: 2}
+																		no  -> Column c4: x >= 10?
+																				yes -> {1: 3}
+																				no  -> Column s1: x >= 3?
+																						yes -> {3: 2}
+																						no  -> {2: 1}
+														no  -> {0: 19, 1: 25}
+										no  -> Column c5: x >= 10?
+												yes -> Column c4: x >= 13?
+														yes -> Column c3: x >= 2?
+																yes -> Column c1: x >= 10?
+																		yes -> {1: 3}
+																		no  -> Column s3: x >= 4?
+																				yes -> {0: 2}
+																				no  -> Column c5: x >= 13?
+																						yes -> {1: 3}
+																						no  -> Column s2: x >= 2?
+																								yes -> {0: 3}
+																								no  -> Column s3: x >= 3?
+																										yes -> {0: 1}
+																										no  -> {1: 2}
+																no  -> Column s1: x >= 4?
+																		yes -> {9: 1}
+																		no  -> {0: 1}
+														no  -> Column s5: x >= 3?
+																yes -> Column c5: x >= 11?
+																		yes -> Column c3: x >= 2?
+																				yes -> Column c1: x >= 4?
+																						yes -> Column c1: x >= 13?
+																								yes -> Column s1: x >= 4?
+																										yes -> {0: 2}
+																										no  -> {1: 1}
+																								no  -> Column c3: x >= 7?
+																										yes -> Column s2: x >= 2?
+																												yes -> {1: 3}
+																												no  -> {2: 1}
+																										no  -> Column c3: x >= 6?
+																												yes -> Column c2: x >= 12?
+																														yes -> {0: 4}
+																														no  -> {1: 3}
+																												no  -> Column s3: x >= 2?
+																														yes -> Column c4: x >= 12?
+																																yes -> Column c1: x >= 8?
+																																		yes -> {1: 2}
+																																		no  -> {2: 1}
+																																no  -> Column c2: x >= 11?
+																																		yes -> Column s2: x >= 4?
+																																				yes -> {0: 2}
+																																				no  -> Column c3: x >= 3?
+																																						yes -> Column c5: x >= 12?
+																																								yes -> Column c1: x >= 9?
+																																										yes -> {0: 3}
+																																										no  -> {1: 3}
+																																								no  -> Column c2: x >= 13?
+																																										yes -> {0: 1}
+																																										no  -> {2: 2}
+																																						no  -> Column s1: x >= 4?
+																																								yes -> {2: 1}
+																																								no  -> {1: 2}
+																																		no  -> Column s1: x >= 3?
+																																				yes -> Column s4: x >= 4?
+																																						yes -> Column s2: x >= 2?
+																																								yes -> {1: 2}
+																																								no  -> {0: 1}
+																																						no  -> {0: 3}
+																																				no  -> {1: 2}
+																														no  -> Column s1: x >= 3?
+																																yes -> {0: 2}
+																																no  -> {1: 1}
+																						no  -> {0: 6}
+																				no  -> Column c1: x >= 7?
+																						yes -> {1: 4}
+																						no  -> Column c1: x >= 4?
+																								yes -> {0: 2}
+																								no  -> {1: 1}
+																		no  -> Column c1: x >= 12?
+																				yes -> {1: 4}
+																				no  -> Column c1: x >= 3?
+																						yes -> Column c1: x >= 6?
+																								yes -> {0: 2}
+																								no  -> {1: 2}
+																						no  -> {0: 2}
+																no  -> Column c4: x >= 10?
+																		yes -> {0: 4}
+																		no  -> Column c1: x >= 2?
+																				yes -> Column c2: x >= 9?
+																						yes -> Column s4: x >= 3?
+																								yes -> {1: 5}
+																								no  -> Column c1: x >= 7?
+																										yes -> Column c1: x >= 13?
+																												yes -> {0: 1}
+																												no  -> {1: 3}
+																										no  -> {0: 3}
+																						no  -> {0: 2}
+																				no  -> {1: 1}
+												no  -> Column c3: x >= 3?
+														yes -> Column c5: x >= 5?
+																yes -> Column s1: x >= 3?
+																		yes -> Column c1: x >= 10?
+																				yes -> Column s2: x >= 3?
+																						yes -> Column s3: x >= 2?
+																								yes -> Column c4: x >= 9?
+																										yes -> Column s1: x >= 4?
+																												yes -> Column s2: x >= 4?
+																														yes -> {5: 1}
+																														no  -> {1: 2}
+																												no  -> {5: 1}
+																										no  -> {0: 1}
+																								no  -> {0: 2}
+																						no  -> Column s3: x >= 4?
+																								yes -> {1: 2}
+																								no  -> Column c3: x >= 4?
+																										yes -> Column s3: x >= 3?
+																												yes -> {0: 4}
+																												no  -> Column s2: x >= 2?
+																														yes -> Column c1: x >= 11?
+																																yes -> Column s5: x >= 3?
+																																		yes -> {0: 3}
+																																		no  -> {1: 1}
+																																no  -> {1: 2}
+																														no  -> {1: 5}
+																										no  -> {1: 2}
+																				no  -> Column c4: x >= 11?
+																						yes -> Column s4: x >= 3?
+																								yes -> Column c1: x >= 9?
+																										yes -> {2: 1}
+																										no  -> Column c2: x >= 12?
+																												yes -> Column s1: x >= 4?
+																														yes -> {1: 1}
+																														no  -> {0: 3}
+																												no  -> Column c3: x >= 5?
+																														yes -> Column c1: x >= 6?
+																																yes -> Column c1: x >= 8?
+																																		yes -> {1: 1}
+																																		no  -> {2: 2}
+																																no  -> {1: 2}
+																														no  -> {2: 2}
+																								no  -> Column c2: x >= 12?
+																										yes -> {0: 3}
+																										no  -> Column s2: x >= 4?
+																												yes -> {1: 2}
+																												no  -> Column s3: x >= 4?
+																														yes -> {1: 1}
+																														no  -> {0: 2}
+																						no  -> Column c3: x >= 7?
+																								yes -> {1: 5}
+																								no  -> Column s2: x >= 4?
+																										yes -> {0: 2}
+																										no  -> Column s4: x >= 4?
+																												yes -> {0: 2}
+																												no  -> Column c5: x >= 7?
+																														yes -> Column c3: x >= 4?
+																																yes -> Column c1: x >= 2?
+																																		yes -> Column c4: x >= 8?
+																																				yes -> Column c1: x >= 7?
+																																						yes -> {1: 2}
+																																						no  -> Column c2: x >= 12?
+																																								yes -> {0: 4}
+																																								no  -> {1: 2}
+																																				no  -> {0: 1}
+																																		no  -> {0: 2}
+																																no  -> {1: 1}
+																														no  -> {0: 1}
+																		no  -> Column s2: x >= 3?
+																				yes -> Column c1: x >= 6?
+																						yes -> Column c2: x >= 11?
+																								yes -> Column s3: x >= 2?
+																										yes -> Column c3: x >= 6?
+																												yes -> {1: 2}
+																												no  -> Column c2: x >= 12?
+																														yes -> {0: 2}
+																														no  -> {1: 1}
+																										no  -> {0: 2}
+																								no  -> {1: 4}
+																						no  -> {0: 6}
+																				no  -> Column c2: x >= 9?
+																						yes -> Column s4: x >= 3?
+																								yes -> Column c1: x >= 12?
+																										yes -> {0: 1}
+																										no  -> {4: 1}
+																								no  -> Column c3: x >= 6?
+																										yes -> {1: 2}
+																										no  -> Column s2: x >= 2?
+																												yes -> {5: 2}
+																												no  -> Column c1: x >= 6?
+																														yes -> {0: 2}
+																														no  -> {1: 1}
+																						no  -> {1: 3}
+																no  -> Column c3: x >= 5?
+																		yes -> Column c1: x >= 3?
+																				yes -> {0: 21, 1: 17}
+																				no  -> {0: 4}
+																		no  -> Column c5: x >= 2?
+																				yes -> Column c1: x >= 7?
+																						yes -> Column c5: x >= 3?
+																								yes -> Column c1: x >= 10?
+																										yes -> Column s1: x >= 3?
+																												yes -> {1: 3}
+																												no  -> {2: 1}
+																										no  -> {2: 2}
+																								no  -> Column s2: x >= 3?
+																										yes -> {0: 1}
+																										no  -> {1: 2}
+																						no  -> Column c2: x >= 10?
+																								yes -> Column c1: x >= 4?
+																										yes -> {1: 3}
+																										no  -> Column c2: x >= 12?
+																												yes -> {0: 2}
+																												no  -> {1: 1}
+																								no  -> {0: 2}
+																				no  -> {0: 7}
+														no  -> Column c1: x >= 13?
+																yes -> {0: 1}
+																no  -> {0: 30, 1: 28}
+								no  -> Column c4: x >= 8?
+										yes -> Column c3: x >= 5?
+												yes -> Column c1: x >= 4?
+														yes -> Column c4: x >= 13?
+																yes -> {1: 6}
+																no  -> Column c1: x >= 7?
+																		yes -> Column c3: x >= 8?
+																				yes -> Column c1: x >= 10?
+																						yes -> Column s3: x >= 2?
+																								yes -> Column c5: x >= 11?
+																										yes -> Column s2: x >= 2?
+																												yes -> {3: 3}
+																												no  -> {1: 1}
+																										no  -> Column c4: x >= 10?
+																												yes -> Column c4: x >= 11?
+																														yes -> Column c3: x >= 10?
+																																yes -> {0: 3}
+																																no  -> {2: 1}
+																														no  -> {2: 2}
+																												no  -> {1: 2}
+																								no  -> Column s1: x >= 3?
+																										yes -> {2: 1}
+																										no  -> {1: 2}
+																						no  -> Column s2: x >= 2?
+																								yes -> Column c5: x >= 10?
+																										yes -> {0: 3}
+																										no  -> {1: 5}
+																								no  -> {3: 2}
+																				no  -> Column c1: x >= 13?
+																						yes -> {2: 1}
+																						no  -> Column c1: x >= 9?
+																								yes -> Column c5: x >= 12?
+																										yes -> Column c1: x >= 12?
+																												yes -> {1: 1}
+																												no  -> {0: 2}
+																										no  -> {1: 4}
+																								no  -> {0: 3}
+																		no  -> Column s3: x >= 3?
+																				yes -> Column c1: x >= 6?
+																						yes -> Column s5: x >= 4?
+																								yes -> Column c2: x >= 13?
+																										yes -> {1: 1}
+																										no  -> {0: 3}
+																								no  -> {1: 2}
+																						no  -> Column s2: x >= 2?
+																								yes -> Column c2: x >= 11?
+																										yes -> {0: 2}
+																										no  -> Column c1: x >= 5?
+																												yes -> Column c3: x >= 13?
+																														yes -> {1: 2}
+																														no  -> {2: 2}
+																												no  -> Column s2: x >= 4?
+																														yes -> {1: 1}
+																														no  -> {0: 1}
+																								no  -> {2: 1}
+																				no  -> Column c5: x >= 8?
+																						yes -> {0: 3}
+																						no  -> Column c4: x >= 11?
+																								yes -> Column c1: x >= 6?
+																										yes -> {1: 1}
+																										no  -> {0: 2}
+																								no  -> {1: 4}
+														no  -> Column c2: x >= 9?
+																yes -> Column c3: x >= 13?
+																		yes -> {0: 1}
+																		no  -> Column c1: x >= 3?
+																				yes -> {1: 3}
+																				no  -> Column s1: x >= 4?
+																						yes -> {0: 2}
+																						no  -> Column c5: x >= 13?
+																								yes -> {0: 1}
+																								no  -> Column c2: x >= 10?
+																										yes -> Column c5: x >= 11?
+																												yes -> {1: 2}
+																												no  -> Column s3: x >= 2?
+																														yes -> Column c3: x >= 9?
+																																yes -> Column c4: x >= 11?
+																																		yes -> {1: 2}
+																																		no  -> {0: 4}
+																																no  -> {1: 4}
+																														no  -> {0: 3}
+																										no  -> {1: 2}
+																no  -> Column c1: x >= 2?
+																		yes -> {0: 2}
+																		no  -> {3: 1}
+												no  -> Column c4: x >= 9?
+														yes -> Column c1: x >= 2?
+																yes -> Column c1: x >= 13?
+																		yes -> {0: 1}
+																		no  -> Column c5: x >= 13?
+																				yes -> {0: 1}
+																				no  -> Column c1: x >= 11?
+																						yes -> {1: 1}
+																						no  -> {0: 17, 1: 16}
+																no  -> {1: 3}
+														no  -> Column s1: x >= 4?
+																yes -> {0: 3}
+																no  -> Column s1: x >= 3?
+																		yes -> Column c1: x >= 10?
+																				yes -> {1: 1}
+																				no  -> {3: 1}
+																		no  -> {0: 1}
+										no  -> Column c2: x >= 9?
+												yes -> Column c5: x >= 11?
+														yes -> {1: 2}
+														no  -> Column c1: x >= 2?
+																yes -> Column s1: x >= 3?
+																		yes -> Column s3: x >= 4?
+																				yes -> {0: 5}
+																				no  -> Column s1: x >= 4?
+																						yes -> Column c1: x >= 10?
+																								yes -> {0: 2}
+																								no  -> Column c3: x >= 12?
+																										yes -> {0: 2}
+																										no  -> {1: 3}
+																						no  -> {1: 2}
+																		no  -> {1: 5}
+																no  -> {0: 1}
+												no  -> {0: 2}
+						no  -> Column s2: x >= 4?
+								yes -> Column s3: x >= 4?
+										yes -> Column c3: x >= 5?
+												yes -> Column c2: x >= 9?
+														yes -> Column s1: x >= 4?
+																yes -> {0: 2}
+																no  -> Column c1: x >= 5?
+																		yes -> {1: 4}
+																		no  -> {0: 2}
+														no  -> {1: 3}
+												no  -> {0: 4}
+										no  -> Column s4: x >= 3?
+												yes -> Column s4: x >= 4?
+														yes -> Column c5: x >= 7?
+																yes -> Column c3: x >= 4?
+																		yes -> {2: 2}
+																		no  -> {1: 3}
+																no  -> {0: 2}
+														no  -> Column c5: x >= 9?
+																yes -> Column c2: x >= 12?
+																		yes -> {0: 2}
+																		no  -> {1: 2}
+																no  -> Column c3: x >= 10?
+																		yes -> {1: 2}
+																		no  -> Column c1: x >= 2?
+																				yes -> Column c1: x >= 13?
+																						yes -> {3: 1}
+																						no  -> {0: 3}
+																				no  -> {3: 1}
+												no  -> Column c5: x >= 5?
+														yes -> Column c5: x >= 13?
+																yes -> {1: 1}
+																no  -> Column c1: x >= 13?
+																		yes -> {0: 1}
+																		no  -> Column c3: x >= 3?
+																				yes -> Column c4: x >= 12?
+																						yes -> {1: 5}
+																						no  -> Column c3: x >= 4?
+																								yes -> {0: 4, 1: 4}
+																								no  -> {1: 1}
+																				no  -> {0: 1}
+														no  -> Column c2: x >= 11?
+																yes -> Column c4: x >= 12?
+																		yes -> {0: 2}
+																		no  -> {1: 2}
+																no  -> {2: 2}
+								no  -> Column s4: x >= 3?
+										yes -> Column c2: x >= 12?
+												yes -> Column c3: x >= 3?
+														yes -> Column c4: x >= 13?
+																yes -> {1: 1}
+																no  -> Column c5: x >= 13?
+																		yes -> {1: 1}
+																		no  -> Column c5: x >= 12?
+																				yes -> {0: 1}
+																				no  -> Column c1: x >= 2?
+																						yes -> Column c1: x >= 3?
+																								yes -> {0: 14, 1: 10}
+																								no  -> {0: 1}
+																						no  -> {1: 1}
+														no  -> {1: 3}
+												no  -> Column s1: x >= 3?
+														yes -> Column s2: x >= 2?
+																yes -> Column c3: x >= 3?
+																		yes -> Column c1: x >= 4?
+																				yes -> Column c3: x >= 12?
+																						yes -> Column s2: x >= 3?
+																								yes -> {0: 1}
+																								no  -> {1: 3}
+																						no  -> Column s3: x >= 2?
+																								yes -> Column c4: x >= 8?
+																										yes -> Column s2: x >= 3?
+																												yes -> {0: 1}
+																												no  -> Column c1: x >= 7?
+																														yes -> Column c1: x >= 12?
+																																yes -> Column s1: x >= 4?
+																																		yes -> {2: 2}
+																																		no  -> {1: 1}
+																																no  -> Column c1: x >= 9?
+																																		yes -> {0: 2}
+																																		no  -> Column s1: x >= 4?
+																																				yes -> {1: 3}
+																																				no  -> {0: 1}
+																														no  -> {2: 1}
+																										no  -> {1: 1}
+																								no  -> {1: 1}
+																				no  -> {0: 3}
+																		no  -> {1: 3}
+																no  -> Column c1: x >= 3?
+																		yes -> {1: 4}
+																		no  -> Column s3: x >= 3?
+																				yes -> {0: 2}
+																				no  -> {1: 1}
+														no  -> Column c3: x >= 6?
+																yes -> Column c4: x >= 11?
+																		yes -> {1: 6}
+																		no  -> Column c1: x >= 12?
+																				yes -> {0: 2}
+																				no  -> Column c1: x >= 9?
+																						yes -> {1: 2}
+																						no  -> Column c4: x >= 9?
+																								yes -> {1: 1}
+																								no  -> {0: 2}
+																no  -> {0: 6}
+										no  -> {0: 34, 1: 39}
+				no  -> Column c2: x >= 11?
+						yes -> Column c4: x >= 5?
+								yes -> Column c3: x >= 3?
+										yes -> Column s1: x >= 3?
+												yes -> Column c5: x >= 3?
+														yes -> Column c1: x >= 3?
+																yes -> Column c3: x >= 4?
+																		yes -> {0: 27, 1: 26, 2: 10}
+																		no  -> Column s4: x >= 2?
+																				yes -> {0: 4}
+																				no  -> {1: 2}
+																no  -> Column s1: x >= 4?
+																		yes -> Column c3: x >= 12?
+																				yes -> {1: 2}
+																				no  -> Column c4: x >= 6?
+																						yes -> {0: 3}
+																						no  -> {1: 1}
+																		no  -> {0: 6}
+														no  -> {0: 10}
+												no  -> Column c1: x >= 10?
+														yes -> {0: 7}
+														no  -> Column c5: x >= 13?
+																yes -> {1: 1}
+																no  -> Column c5: x >= 12?
+																		yes -> {0: 1}
+																		no  -> Column c5: x >= 11?
+																				yes -> {1: 1}
+																				no  -> {0: 9, 1: 13}
+										no  -> Column c5: x >= 2?
+												yes -> Column s2: x >= 2?
+														yes -> Column c5: x >= 12?
+																yes -> {0: 2}
+																no  -> Column s3: x >= 4?
+																		yes -> {1: 4}
+																		no  -> Column c3: x >= 2?
+																				yes -> Column c1: x >= 8?
+																						yes -> Column c1: x >= 12?
+																								yes -> {1: 1}
+																								no  -> {0: 2}
+																						no  -> {1: 2}
+																				no  -> {0: 5}
+														no  -> {0: 3}
+												no  -> {5: 1}
+								no  -> Column c2: x >= 12?
+										yes -> Column s1: x >= 3?
+												yes -> Column s4: x >= 3?
+														yes -> Column c1: x >= 12?
+																yes -> {0: 4}
+																no  -> Column c5: x >= 2?
+																		yes -> Column c5: x >= 13?
+																				yes -> {1: 3}
+																				no  -> Column c3: x >= 2?
+																						yes -> {0: 28, 1: 16}
+																						no  -> {0: 3}
+																		no  -> {1: 3}
+														no  -> Column c5: x >= 5?
+																yes -> Column c3: x >= 4?
+																		yes -> Column c3: x >= 13?
+																				yes -> {0: 2}
+																				no  -> Column c1: x >= 4?
+																						yes -> Column c4: x >= 2?
+																								yes -> Column c1: x >= 13?
+																										yes -> {0: 1}
+																										no  -> Column c1: x >= 12?
+																												yes -> {1: 3}
+																												no  -> Column s2: x >= 4?
+																														yes -> {0: 4}
+																														no  -> Column c3: x >= 12?
+																																yes -> {1: 2}
+																																no  -> Column s2: x >= 3?
+																																		yes -> {0: 4}
+																																		no  -> Column c5: x >= 8?
+																																				yes -> Column s5: x >= 4?
+																																						yes -> Column s1: x >= 4?
+																																								yes -> {1: 1}
+																																								no  -> {0: 2}
+																																						no  -> {1: 4}
+																																				no  -> {0: 3}
+																								no  -> {0: 5}
+																						no  -> {1: 3}
+																		no  -> Column s4: x >= 2?
+																				yes -> {1: 3}
+																				no  -> Column c4: x >= 3?
+																						yes -> Column c1: x >= 11?
+																								yes -> {0: 1}
+																								no  -> {1: 1}
+																						no  -> {2: 2}
+																no  -> Column c4: x >= 3?
+																		yes -> Column s4: x >= 2?
+																				yes -> Column s2: x >= 3?
+																						yes -> {1: 1}
+																						no  -> Column s1: x >= 4?
+																								yes -> {0: 2}
+																								no  -> Column c3: x >= 13?
+																										yes -> {0: 1}
+																										no  -> {2: 2}
+																				no  -> {1: 3}
+																		no  -> Column s2: x >= 3?
+																				yes -> Column c4: x >= 2?
+																						yes -> Column c1: x >= 7?
+																								yes -> {0: 3}
+																								no  -> {3: 1}
+																						no  -> Column s3: x >= 3?
+																								yes -> {1: 3}
+																								no  -> {3: 2}
+																				no  -> Column c1: x >= 10?
+																						yes -> {1: 1}
+																						no  -> {0: 1}
+												no  -> Column s2: x >= 3?
+														yes -> Column s4: x >= 2?
+																yes -> Column c1: x >= 9?
+																		yes -> Column c5: x >= 13?
+																				yes -> {1: 3}
+																				no  -> Column s4: x >= 4?
+																						yes -> Column c4: x >= 4?
+																								yes -> {0: 1}
+																								no  -> {1: 2}
+																						no  -> {0: 3}
+																		no  -> Column c4: x >= 2?
+																				yes -> Column c3: x >= 13?
+																						yes -> {0: 1}
+																						no  -> Column c1: x >= 7?
+																								yes -> Column s5: x >= 4?
+																										yes -> {2: 1}
+																										no  -> {0: 3}
+																								no  -> Column c1: x >= 5?
+																										yes -> Column s3: x >= 2?
+																												yes -> {1: 2}
+																												no  -> {2: 1}
+																										no  -> {2: 1}
+																				no  -> Column c1: x >= 5?
+																						yes -> {0: 3}
+																						no  -> {1: 1}
+																no  -> Column c1: x >= 13?
+																		yes -> {3: 1}
+																		no  -> Column s5: x >= 3?
+																				yes -> Column s5: x >= 4?
+																						yes -> Column c1: x >= 5?
+																								yes -> {0: 3}
+																								no  -> {1: 1}
+																						no  -> {1: 5}
+																				no  -> {0: 3}
+														no  -> Column s2: x >= 2?
+																yes -> Column c5: x >= 9?
+																		yes -> Column s5: x >= 3?
+																				yes -> {1: 4}
+																				no  -> {5: 3}
+																		no  -> Column s5: x >= 3?
+																				yes -> Column s3: x >= 3?
+																						yes -> {1: 2}
+																						no  -> Column c3: x >= 5?
+																								yes -> {0: 2}
+																								no  -> {1: 1}
+																				no  -> {0: 4}
+																no  -> Column s3: x >= 4?
+																		yes -> {0: 2}
+																		no  -> Column c4: x >= 2?
+																				yes -> Column c3: x >= 4?
+																						yes -> Column c5: x >= 13?
+																								yes -> {3: 2}
+																								no  -> Column s4: x >= 4?
+																										yes -> {3: 2}
+																										no  -> Column c1: x >= 10?
+																												yes -> {0: 2}
+																												no  -> Column c1: x >= 4?
+																														yes -> Column c1: x >= 7?
+																																yes -> {1: 1}
+																																no  -> {0: 2}
+																														no  -> {1: 2}
+																						no  -> {1: 2}
+																				no  -> {0: 2}
+										no  -> Column s5: x >= 3?
+												yes -> Column c5: x >= 12?
+														yes -> {0: 8}
+														no  -> Column c5: x >= 11?
+																yes -> {1: 7}
+																no  -> Column s3: x >= 4?
+																		yes -> {0: 3}
+																		no  -> Column c5: x >= 3?
+																				yes -> Column s2: x >= 2?
+																						yes -> Column s1: x >= 3?
+																								yes -> Column c5: x >= 8?
+																										yes -> Column s3: x >= 2?
+																												yes -> {1: 2}
+																												no  -> Column c1: x >= 4?
+																														yes -> {0: 3}
+																														no  -> {1: 1}
+																										no  -> {0: 3}
+																								no  -> {1: 5}
+																						no  -> {0: 3}
+																				no  -> {1: 2}
+												no  -> Column c3: x >= 12?
+														yes -> {0: 4}
+														no  -> Column c5: x >= 12?
+																yes -> Column c1: x >= 10?
+																		yes -> {0: 2}
+																		no  -> Column s1: x >= 4?
+																				yes -> {1: 2}
+																				no  -> Column c1: x >= 9?
+																						yes -> {1: 2}
+																						no  -> {0: 4}
+																no  -> Column c5: x >= 4?
+																		yes -> Column c1: x >= 12?
+																				yes -> Column s1: x >= 4?
+																						yes -> {1: 1}
+																						no  -> {0: 4}
+																				no  -> Column c1: x >= 10?
+																						yes -> Column s3: x >= 4?
+																								yes -> {2: 1}
+																								no  -> {0: 2}
+																						no  -> Column c3: x >= 2?
+																								yes -> Column c1: x >= 7?
+																										yes -> Column s1: x >= 3?
+																												yes -> {1: 2}
+																												no  -> {0: 2}
+																										no  -> Column s3: x >= 2?
+																												yes -> Column s3: x >= 4?
+																														yes -> {2: 3}
+																														no  -> Column c4: x >= 3?
+																																yes -> Column c1: x >= 6?
+																																		yes -> {2: 1}
+																																		no  -> {0: 2}
+																																no  -> {1: 3}
+																												no  -> {0: 2}
+																								no  -> {2: 1}
+																		no  -> Column s3: x >= 4?
+																				yes -> Column s1: x >= 3?
+																						yes -> {0: 1}
+																						no  -> {1: 3}
+																				no  -> {0: 5}
+						no  -> Column c2: x >= 9?
+								yes -> Column c1: x >= 11?
+										yes -> Column c5: x >= 13?
+												yes -> Column s2: x >= 4?
+														yes -> {2: 1}
+														no  -> Column s3: x >= 3?
+																yes -> Column c4: x >= 6?
+																		yes -> {1: 1}
+																		no  -> {0: 3}
+																no  -> {1: 3}
+												no  -> Column s2: x >= 2?
+														yes -> {0: 30, 1: 21}
+														no  -> Column c3: x >= 12?
+																yes -> {0: 4}
+																no  -> Column s4: x >= 2?
+																		yes -> Column s4: x >= 3?
+																				yes -> Column s5: x >= 2?
+																						yes -> Column c1: x >= 12?
+																								yes -> {0: 2}
+																								no  -> {1: 1}
+																						no  -> {1: 4}
+																				no  -> {0: 4}
+																		no  -> {1: 2}
+										no  -> Column c4: x >= 6?
+												yes -> Column c1: x >= 10?
+														yes -> Column s2: x >= 4?
+																yes -> {1: 1}
+																no  -> Column c2: x >= 10?
+																		yes -> {2: 2}
+																		no  -> {0: 1}
+														no  -> Column c3: x >= 13?
+																yes -> {0: 4}
+																no  -> Column s4: x >= 2?
+																		yes -> Column c1: x >= 9?
+																				yes -> {1: 1}
+																				no  -> Column c1: x >= 8?
+																						yes -> {0: 2}
+																						no  -> Column c3: x >= 3?
+																								yes -> Column c1: x >= 6?
+																										yes -> {1: 3}
+																										no  -> Column s3: x >= 4?
+																												yes -> {0: 3}
+																												no  -> Column c3: x >= 5?
+																														yes -> Column c1: x >= 3?
+																																yes -> {0: 2}
+																																no  -> Column s4: x >= 3?
+																																		yes -> {1: 3}
+																																		no  -> Column s5: x >= 3?
+																																				yes -> {0: 2}
+																																				no  -> {1: 1}
+																														no  -> {1: 2}
+																								no  -> {0: 1}
+																		no  -> {1: 3}
+												no  -> Column c4: x >= 5?
+														yes -> Column c2: x >= 10?
+																yes -> Column s5: x >= 4?
+																		yes -> {0: 3}
+																		no  -> Column c5: x >= 7?
+																				yes -> Column s4: x >= 2?
+																						yes -> {0: 5}
+																						no  -> {1: 2}
+																				no  -> {1: 5}
+																no  -> Column s1: x >= 3?
+																		yes -> Column c5: x >= 8?
+																				yes -> Column s3: x >= 2?
+																						yes -> {1: 3}
+																						no  -> {0: 1}
+																				no  -> {0: 3}
+																		no  -> Column c5: x >= 5?
+																				yes -> {3: 3}
+																				no  -> {1: 1}
+														no  -> Column c3: x >= 11?
+																yes -> Column s5: x >= 2?
+																		yes -> {0: 12}
+																		no  -> Column s1: x >= 4?
+																				yes -> {0: 1}
+																				no  -> Column s3: x >= 2?
+																						yes -> Column c4: x >= 4?
+																								yes -> Column c1: x >= 10?
+																										yes -> {1: 1}
+																										no  -> {0: 3}
+																								no  -> {1: 2}
+																						no  -> {0: 1}
+																no  -> Column s3: x >= 4?
+																		yes -> Column c4: x >= 4?
+																				yes -> Column s5: x >= 2?
+																						yes -> Column c5: x >= 3?
+																								yes -> {0: 3}
+																								no  -> {1: 1}
+																						no  -> Column s1: x >= 3?
+																								yes -> {1: 2}
+																								no  -> {2: 2}
+																				no  -> Column s4: x >= 3?
+																						yes -> {0: 4}
+																						no  -> Column s2: x >= 4?
+																								yes -> Column c1: x >= 4?
+																										yes -> {0: 3}
+																										no  -> {1: 1}
+																								no  -> {1: 6}
+																		no  -> Column s3: x >= 3?
+																				yes -> Column s1: x >= 3?
+																						yes -> Column s2: x >= 4?
+																								yes -> {0: 5}
+																								no  -> Column c3: x >= 3?
+																										yes -> Column c2: x >= 10?
+																												yes -> Column s5: x >= 4?
+																														yes -> {1: 3}
+																														no  -> Column s2: x >= 2?
+																																yes -> {0: 3}
+																																no  -> {1: 1}
+																												no  -> {0: 2}
+																										no  -> {1: 2}
+																						no  -> Column c5: x >= 3?
+																								yes -> Column s5: x >= 3?
+																										yes -> Column s5: x >= 4?
+																												yes -> {3: 2}
+																												no  -> {0: 3}
+																										no  -> Column c1: x >= 6?
+																												yes -> {1: 3}
+																												no  -> {3: 1}
+																								no  -> {1: 1}
+																				no  -> Column c2: x >= 10?
+																						yes -> Column c5: x >= 6?
+																								yes -> Column c1: x >= 9?
+																										yes -> {0: 3}
+																										no  -> Column c4: x >= 4?
+																												yes -> {1: 3}
+																												no  -> Column s1: x >= 4?
+																														yes -> {0: 2}
+																														no  -> Column c4: x >= 3?
+																																yes -> {0: 2}
+																																no  -> {1: 3}
+																								no  -> Column s4: x >= 3?
+																										yes -> Column c4: x >= 2?
+																												yes -> {2: 2}
+																												no  -> {0: 2}
+																										no  -> {1: 4}
+																						no  -> Column c3: x >= 8?
+																								yes -> {0: 4}
+																								no  -> Column s4: x >= 3?
+																										yes -> Column c3: x >= 3?
+																												yes -> Column c1: x >= 4?
+																														yes -> Column c1: x >= 9?
+																																yes -> {1: 2}
+																																no  -> Column c1: x >= 7?
+																																		yes -> {0: 2}
+																																		no  -> Column s5: x >= 2?
+																																				yes -> {1: 2}
+																																				no  -> {0: 1}
+																														no  -> {0: 2}
+																												no  -> Column c1: x >= 10?
+																														yes -> {0: 1}
+																														no  -> Column s2: x >= 3?
+																																yes -> {2: 2}
+																																no  -> {1: 1}
+																										no  -> Column c5: x >= 2?
+																												yes -> Column c1: x >= 10?
+																														yes -> {1: 1}
+																														no  -> Column c5: x >= 12?
+																																yes -> {0: 1}
+																																no  -> Column c3: x >= 2?
+																																		yes -> Column c3: x >= 4?
+																																				yes -> Column c1: x >= 4?
+																																						yes -> Column s1: x >= 3?
+																																								yes -> Column s3: x >= 2?
+																																										yes -> {3: 2}
+																																										no  -> {1: 1}
+																																								no  -> {0: 1}
+																																						no  -> {0: 2}
+																																				no  -> {1: 3}
+																																		no  -> {3: 1}
+																												no  -> {2: 1}
+								no  -> Column c4: x >= 3?
+										yes -> Column s3: x >= 4?
+												yes -> Column c5: x >= 13?
+														yes -> {0: 1}
+														no  -> {0: 15, 1: 12}
+												no  -> Column c3: x >= 5?
+														yes -> Column s5: x >= 4?
+																yes -> Column s2: x >= 2?
+																		yes -> Column s4: x >= 4?
+																				yes -> {1: 2}
+																				no  -> Column c1: x >= 10?
+																						yes -> {0: 3}
+																						no  -> Column s3: x >= 3?
+																								yes -> {0: 2}
+																								no  -> {1: 3}
+																		no  -> {1: 4}
+																no  -> Column s4: x >= 2?
+																		yes -> Column c1: x >= 3?
+																				yes -> Column s3: x >= 2?
+																						yes -> Column c5: x >= 13?
+																								yes -> Column c1: x >= 9?
+																										yes -> {0: 2}
+																										no  -> {2: 2}
+																								no  -> Column c3: x >= 7?
+																										yes -> Column c3: x >= 10?
+																												yes -> {0: 4}
+																												no  -> Column c1: x >= 7?
+																														yes -> {1: 3}
+																														no  -> {0: 1}
+																										no  -> {1: 5}
+																						no  -> Column c4: x >= 4?
+																								yes -> {1: 4}
+																								no  -> Column s4: x >= 3?
+																										yes -> {2: 2}
+																										no  -> {1: 1}
+																				no  -> {0: 4}
+																		no  -> {0: 5}
+														no  -> Column c5: x >= 13?
+																yes -> {1: 3}
+																no  -> Column c1: x >= 13?
+																		yes -> {0: 3}
+																		no  -> Column s2: x >= 4?
+																				yes -> {0: 1}
+																				no  -> Column c4: x >= 6?
+																						yes -> {0: 1}
+																						no  -> Column c1: x >= 3?
+																								yes -> Column c1: x >= 5?
+																										yes -> Column s4: x >= 4?
+																												yes -> {0: 2}
+																												no  -> Column s2: x >= 2?
+																														yes -> Column c5: x >= 12?
+																																yes -> {0: 2}
+																																no  -> Column s3: x >= 3?
+																																		yes -> Column c3: x >= 3?
+																																				yes -> {1: 1}
+																																				no  -> {0: 2}
+																																		no  -> {1: 3}
+																														no  -> {1: 1}
+																										no  -> {0: 2}
+																								no  -> {1: 2}
+										no  -> Column c1: x >= 13?
+												yes -> {1: 2}
+												no  -> Column c5: x >= 2?
+														yes -> Column c3: x >= 13?
+																yes -> {0: 2}
+																no  -> {0: 23, 1: 26}
+														no  -> {1: 2}
+		no  -> Column c3: x >= 8?
+				yes -> Column c4: x >= 8?
+						yes -> Column c5: x >= 9?
+								yes -> Column s5: x >= 3?
+										yes -> Column c5: x >= 11?
+												yes -> Column c2: x >= 11?
+														yes -> Column c3: x >= 12?
+																yes -> Column c1: x >= 5?
+																		yes -> {3: 3}
+																		no  -> {0: 1}
+																no  -> Column c5: x >= 12?
+																		yes -> Column s3: x >= 4?
+																				yes -> {1: 1}
+																				no  -> {0: 3}
+																		no  -> {1: 3}
+														no  -> Column s4: x >= 3?
+																yes -> {1: 5}
+																no  -> Column c1: x >= 10?
+																		yes -> {1: 2}
+																		no  -> {0: 3}
+												no  -> Column c1: x >= 10?
+														yes -> {1: 3}
+														no  -> Column s3: x >= 4?
+																yes -> {0: 1}
+																no  -> Column c2: x >= 10?
+																		yes -> Column c3: x >= 13?
+																				yes -> {2: 1}
+																				no  -> {1: 2}
+																		no  -> Column c1: x >= 8?
+																				yes -> {2: 1}
+																				no  -> {0: 1}
+										no  -> Column c4: x >= 12?
+												yes -> Column c2: x >= 10?
+														yes -> Column s3: x >= 3?
+																yes -> {2: 2}
+																no  -> {1: 1}
+														no  -> {1: 4}
+												no  -> Column c4: x >= 9?
+														yes -> Column c5: x >= 13?
+																yes -> Column s2: x >= 3?
+																		yes -> Column c1: x >= 13?
+																				yes -> {6: 1}
+																				no  -> {4: 2}
+																		no  -> Column c1: x >= 9?
+																				yes -> {8: 1}
+																				no  -> {1: 1}
+																no  -> Column s4: x >= 4?
+																		yes -> {3: 2}
+																		no  -> Column c3: x >= 9?
+																				yes -> Column c1: x >= 4?
+																						yes -> Column c2: x >= 9?
+																								yes -> {1: 2}
+																								no  -> {0: 1}
+																						no  -> {0: 1}
+																				no  -> {4: 1}
+														no  -> Column c1: x >= 13?
+																yes -> {0: 1}
+																no  -> {1: 4}
+								no  -> Column s2: x >= 2?
+										yes -> Column c5: x >= 8?
+												yes -> {1: 4}
+												no  -> Column c1: x >= 2?
+														yes -> Column c3: x >= 13?
+																yes -> {1: 5}
+																no  -> Column c5: x >= 7?
+																		yes -> {1: 1}
+																		no  -> {0: 12, 1: 15}
+														no  -> {0: 2}
+										no  -> Column c5: x >= 2?
+												yes -> Column c3: x >= 11?
+														yes -> Column s3: x >= 3?
+																yes -> Column c1: x >= 5?
+																		yes -> {0: 2}
+																		no  -> Column s5: x >= 3?
+																				yes -> {1: 2}
+																				no  -> {0: 1}
+																no  -> {1: 4}
+														no  -> Column c2: x >= 12?
+																yes -> {0: 3}
+																no  -> Column c1: x >= 13?
+																		yes -> {0: 1}
+																		no  -> {2: 3}
+												no  -> Column c1: x >= 11?
+														yes -> {0: 1}
+														no  -> {9: 1}
+						no  -> Column c1: x >= 6?
+								yes -> {0: 42, 1: 48}
+								no  -> Column c5: x >= 5?
+										yes -> Column c2: x >= 12?
+												yes -> Column c3: x >= 10?
+														yes -> Column s2: x >= 3?
+																yes -> Column s4: x >= 3?
+																		yes -> {1: 2}
+																		no  -> Column c4: x >= 2?
+																				yes -> {2: 2}
+																				no  -> {0: 1}
+																no  -> Column s3: x >= 3?
+																		yes -> {1: 1}
+																		no  -> Column s2: x >= 2?
+																				yes -> Column c4: x >= 7?
+																						yes -> {0: 1}
+																						no  -> {1: 2}
+																				no  -> {0: 1}
+														no  -> {0: 4}
+												no  -> Column c2: x >= 9?
+														yes -> Column s3: x >= 2?
+																yes -> Column s5: x >= 2?
+																		yes -> Column s4: x >= 3?
+																				yes -> Column s2: x >= 2?
+																						yes -> Column c5: x >= 10?
+																								yes -> {0: 2}
+																								no  -> Column c4: x >= 7?
+																										yes -> {0: 1}
+																										no  -> {1: 2}
+																						no  -> {1: 3}
+																				no  -> {0: 7}
+																		no  -> {1: 4}
+																no  -> {0: 2}
+														no  -> {0: 2}
+										no  -> Column c5: x >= 4?
+												yes -> Column s3: x >= 3?
+														yes -> {1: 3}
+														no  -> Column s2: x >= 3?
+																yes -> {0: 2}
+																no  -> {6: 1}
+												no  -> Column c4: x >= 7?
+														yes -> {0: 2}
+														no  -> Column c3: x >= 13?
+																yes -> {0: 1}
+																no  -> Column c3: x >= 9?
+																		yes -> Column c4: x >= 2?
+																				yes -> Column s2: x >= 4?
+																						yes -> {1: 2}
+																						no  -> Column s2: x >= 2?
+																								yes -> {0: 3}
+																								no  -> Column c2: x >= 10?
+																										yes -> Column c1: x >= 5?
+																												yes -> {1: 1}
+																												no  -> {0: 1}
+																										no  -> {1: 1}
+																				no  -> {0: 1}
+																		no  -> {0: 1}
+				no  -> Column c2: x >= 9?
+						yes -> Column s2: x >= 2?
+								yes -> Column s3: x >= 2?
+										yes -> Column s2: x >= 4?
+												yes -> Column s5: x >= 3?
+														yes -> Column s4: x >= 2?
+																yes -> Column c4: x >= 3?
+																		yes -> Column c1: x >= 13?
+																				yes -> {0: 1}
+																				no  -> Column c5: x >= 12?
+																						yes -> {1: 2}
+																						no  -> Column c1: x >= 2?
+																								yes -> Column c5: x >= 2?
+																										yes -> Column c3: x >= 5?
+																												yes -> Column c3: x >= 6?
+																														yes -> Column c1: x >= 4?
+																																yes -> {0: 2}
+																																no  -> Column c3: x >= 7?
+																																		yes -> {1: 1}
+																																		no  -> {0: 1}
+																														no  -> {1: 3}
+																												no  -> {0: 6}
+																										no  -> {1: 1}
+																								no  -> {0: 1}
+																		no  -> {1: 2}
+																no  -> {0: 2}
+														no  -> Column c1: x >= 4?
+																yes -> Column s4: x >= 4?
+																		yes -> Column c1: x >= 11?
+																				yes -> {0: 2}
+																				no  -> Column c3: x >= 6?
+																						yes -> {0: 1}
+																						no  -> {1: 2}
+																		no  -> Column c1: x >= 12?
+																				yes -> Column c2: x >= 13?
+																						yes -> {0: 1}
+																						no  -> {1: 4}
+																				no  -> Column c2: x >= 13?
+																						yes -> {0: 2}
+																						no  -> Column c3: x >= 7?
+																								yes -> Column s3: x >= 4?
+																										yes -> {1: 3}
+																										no  -> {2: 1}
+																								no  -> Column s4: x >= 3?
+																										yes -> {0: 2}
+																										no  -> Column c1: x >= 11?
+																												yes -> {2: 1}
+																												no  -> Column c5: x >= 8?
+																														yes -> Column s5: x >= 2?
+																																yes -> {1: 2}
+																																no  -> {2: 2}
+																														no  -> Column c1: x >= 5?
+																																yes -> Column c1: x >= 10?
+																																		yes -> {0: 1}
+																																		no  -> {1: 2}
+																																no  -> {0: 2}
+																no  -> {1: 3}
+												no  -> Column s4: x >= 3?
+														yes -> Column c1: x >= 10?
+																yes -> Column c4: x >= 13?
+																		yes -> {2: 1}
+																		no  -> Column s5: x >= 4?
+																				yes -> Column c1: x >= 11?
+																						yes -> {0: 1}
+																						no  -> {1: 1}
+																				no  -> Column c3: x >= 7?
+																						yes -> {3: 1}
+																						no  -> Column c5: x >= 8?
+																								yes -> Column c3: x >= 2?
+																										yes -> {0: 3}
+																										no  -> {1: 2}
+																								no  -> Column c4: x >= 9?
+																										yes -> {1: 2}
+																										no  -> {3: 2}
+																no  -> Column c3: x >= 5?
+																		yes -> Column c2: x >= 13?
+																				yes -> {0: 3}
+																				no  -> Column c4: x >= 11?
+																						yes -> {1: 3}
+																						no  -> Column c2: x >= 11?
+																								yes -> {0: 3}
+																								no  -> Column c1: x >= 4?
+																										yes -> {1: 3}
+																										no  -> Column s2: x >= 3?
+																												yes -> {0: 2}
+																												no  -> {1: 1}
+																		no  -> Column c1: x >= 2?
+																				yes -> Column c4: x >= 4?
+																						yes -> Column s3: x >= 3?
+																								yes -> Column c1: x >= 9?
+																										yes -> {2: 1}
+																										no  -> Column s4: x >= 4?
+																												yes -> Column c3: x >= 4?
+																														yes -> {1: 2}
+																														no  -> Column c1: x >= 3?
+																																yes -> Column c1: x >= 4?
+																																		yes -> {2: 1}
+																																		no  -> {1: 1}
+																																no  -> {2: 1}
+																												no  -> Column c1: x >= 7?
+																														yes -> {0: 2}
+																														no  -> Column c1: x >= 3?
+																																yes -> {1: 1}
+																																no  -> {0: 1}
+																								no  -> Column c1: x >= 6?
+																										yes -> {0: 2}
+																										no  -> {1: 1}
+																						no  -> {0: 1}
+																				no  -> {1: 1}
+														no  -> Column s3: x >= 3?
+																yes -> Column c2: x >= 10?
+																		yes -> Column c4: x >= 13?
+																				yes -> {0: 1}
+																				no  -> {0: 19, 1: 15}
+																		no  -> {0: 2}
+																no  -> Column c1: x >= 6?
+																		yes -> Column c4: x >= 5?
+																				yes -> Column c5: x >= 5?
+																						yes -> {1: 4}
+																						no  -> {0: 2}
+																				no  -> {0: 3}
+																		no  -> Column c1: x >= 4?
+																				yes -> {3: 1}
+																				no  -> {1: 3}
+										no  -> Column c3: x >= 7?
+												yes -> {0: 2}
+												no  -> Column c4: x >= 12?
+														yes -> {1: 5}
+														no  -> Column c1: x >= 12?
+																yes -> {0: 4}
+																no  -> Column c1: x >= 3?
+																		yes -> Column c5: x >= 2?
+																				yes -> Column s4: x >= 2?
+																						yes -> Column c5: x >= 3?
+																								yes -> Column c4: x >= 11?
+																										yes -> {1: 2}
+																										no  -> Column c4: x >= 9?
+																												yes -> {0: 3}
+																												no  -> Column c1: x >= 5?
+																														yes -> Column c3: x >= 6?
+																																yes -> {0: 1}
+																																no  -> Column c1: x >= 8?
+																																		yes -> Column c3: x >= 2?
+																																				yes -> Column c1: x >= 11?
+																																						yes -> {1: 2}
+																																						no  -> Column s5: x >= 3?
+																																								yes -> Column s2: x >= 4?
+																																										yes -> {0: 1}
+																																										no  -> {1: 3}
+																																								no  -> {0: 3}
+																																				no  -> {0: 3}
+																																		no  -> {1: 5}
+																														no  -> {0: 1}
+																								no  -> {0: 2}
+																						no  -> {0: 5}
+																				no  -> {1: 2}
+																		no  -> {0: 1}
+								no  -> Column c1: x >= 7?
+										yes -> Column c5: x >= 6?
+												yes -> Column s4: x >= 2?
+														yes -> Column c4: x >= 10?
+																yes -> Column c2: x >= 10?
+																		yes -> {0: 3}
+																		no  -> {1: 2}
+																no  -> Column c1: x >= 13?
+																		yes -> {2: 1}
+																		no  -> Column c2: x >= 10?
+																				yes -> Column c1: x >= 9?
+																						yes -> Column c3: x >= 5?
+																								yes -> {0: 3}
+																								no  -> {1: 1}
+																						no  -> Column s3: x >= 2?
+																								yes -> Column s4: x >= 3?
+																										yes -> {2: 3}
+																										no  -> {1: 1}
+																								no  -> {1: 2}
+																				no  -> {0: 1}
+														no  -> {0: 4}
+												no  -> Column c2: x >= 13?
+														yes -> {0: 2}
+														no  -> Column s5: x >= 2?
+																yes -> Column c5: x >= 2?
+																		yes -> Column c1: x >= 10?
+																				yes -> Column c1: x >= 13?
+																						yes -> Column c3: x >= 4?
+																								yes -> {1: 2}
+																								no  -> {0: 1}
+																						no  -> {0: 4}
+																				no  -> {1: 3}
+																		no  -> {0: 2}
+																no  -> {0: 2}
+										no  -> Column c4: x >= 3?
+												yes -> Column s5: x >= 2?
+														yes -> Column c4: x >= 11?
+																yes -> {0: 2}
+																no  -> Column c3: x >= 6?
+																		yes -> {1: 3}
+																		no  -> Column c2: x >= 10?
+																				yes -> Column c2: x >= 11?
+																						yes -> Column c1: x >= 3?
+																								yes -> Column c5: x >= 3?
+																										yes -> Column s4: x >= 2?
+																												yes -> Column c4: x >= 6?
+																														yes -> Column s5: x >= 3?
+																																yes -> {0: 2}
+																																no  -> {1: 1}
+																														no  -> {1: 3}
+																												no  -> {0: 2}
+																										no  -> {0: 3}
+																								no  -> {1: 4}
+																						no  -> {0: 2}
+																				no  -> {1: 2}
+														no  -> {0: 5}
+												no  -> {1: 5}
+						no  -> {0: 21, 1: 25}
+no  -> Column c1: x >= 9?
+		yes -> Column c2: x >= 7?
+				yes -> Column s1: x >= 3?
+						yes -> Column c1: x >= 11?
+								yes -> Column c4: x >= 2?
+										yes -> Column s5: x >= 2?
+												yes -> Column c4: x >= 13?
+														yes -> {0: 3}
+														no  -> Column s4: x >= 2?
+																yes -> Column s5: x >= 4?
+																		yes -> Column s3: x >= 2?
+																				yes -> {0: 4}
+																				no  -> {3: 2}
+																		no  -> Column c3: x >= 11?
+																				yes -> {3: 2}
+																				no  -> Column s2: x >= 3?
+																						yes -> Column s4: x >= 4?
+																								yes -> {1: 1}
+																								no  -> {0: 3}
+																						no  -> {1: 3}
+																no  -> Column s2: x >= 2?
+																		yes -> Column s3: x >= 3?
+																				yes -> {0: 4}
+																				no  -> {1: 2}
+																		no  -> {1: 4}
+												no  -> Column c4: x >= 4?
+														yes -> Column s4: x >= 3?
+																yes -> Column c3: x >= 7?
+																		yes -> Column c5: x >= 8?
+																				yes -> {1: 2}
+																				no  -> {0: 2}
+																		no  -> {0: 2}
+																no  -> {1: 3}
+														no  -> {0: 2}
+										no  -> {0: 5}
+								no  -> Column c5: x >= 9?
+										yes -> Column c4: x >= 9?
+												yes -> Column s3: x >= 3?
+														yes -> Column c1: x >= 10?
+																yes -> {4: 1}
+																no  -> {3: 1}
+														no  -> {0: 1}
+												no  -> Column c3: x >= 6?
+														yes -> Column s3: x >= 4?
+																yes -> {1: 3}
+																no  -> Column s2: x >= 3?
+																		yes -> Column c1: x >= 10?
+																				yes -> Column s1: x >= 4?
+																						yes -> {1: 1}
+																						no  -> {0: 1}
+																				no  -> {1: 1}
+																		no  -> {0: 2}
+														no  -> {0: 2}
+										no  -> Column s4: x >= 3?
+												yes -> Column c3: x >= 2?
+														yes -> Column c4: x >= 6?
+																yes -> Column c3: x >= 8?
+																		yes -> Column c5: x >= 5?
+																				yes -> Column c1: x >= 10?
+																						yes -> {0: 1}
+																						no  -> {2: 3}
+																				no  -> {0: 2}
+																		no  -> Column s2: x >= 3?
+																				yes -> Column s3: x >= 4?
+																						yes -> {2: 1}
+																						no  -> {0: 1}
+																				no  -> {1: 2}
+																no  -> {1: 2}
+														no  -> {0: 1}
+												no  -> Column c1: x >= 10?
+														yes -> {1: 4}
+														no  -> {0: 5}
+						no  -> Column s4: x >= 4?
+								yes -> Column s3: x >= 4?
+										yes -> {0: 4}
+										no  -> Column c5: x >= 3?
+												yes -> Column c4: x >= 13?
+														yes -> {0: 2}
+														no  -> Column s2: x >= 2?
+																yes -> Column c5: x >= 13?
+																		yes -> {0: 2}
+																		no  -> Column c5: x >= 4?
+																				yes -> Column c3: x >= 12?
+																						yes -> {1: 2}
+																						no  -> Column s5: x >= 3?
+																								yes -> {0: 2}
+																								no  -> Column c1: x >= 13?
+																										yes -> {1: 2}
+																										no  -> Column c1: x >= 10?
+																												yes -> {0: 2}
+																												no  -> {1: 1}
+																				no  -> {0: 2}
+																no  -> {1: 6}
+												no  -> {0: 2}
+								no  -> Column s3: x >= 4?
+										yes -> Column c3: x >= 2?
+												yes -> Column c3: x >= 11?
+														yes -> {0: 2}
+														no  -> Column s1: x >= 2?
+																yes -> {1: 7}
+																no  -> Column c1: x >= 11?
+																		yes -> {0: 5}
+																		no  -> Column s2: x >= 3?
+																				yes -> {0: 1}
+																				no  -> {1: 1}
+												no  -> {0: 3}
+										no  -> Column s2: x >= 4?
+												yes -> Column s5: x >= 3?
+														yes -> {0: 6}
+														no  -> Column c5: x >= 5?
+																yes -> Column s3: x >= 2?
+																		yes -> {1: 2}
+																		no  -> Column c3: x >= 5?
+																				yes -> {0: 2}
+																				no  -> {1: 1}
+																no  -> {0: 2}
+												no  -> Column c3: x >= 3?
+														yes -> Column c5: x >= 10?
+																yes -> Column s2: x >= 2?
+																		yes -> Column c1: x >= 10?
+																				yes -> {1: 3}
+																				no  -> {0: 1}
+																		no  -> {0: 2}
+																no  -> Column c1: x >= 13?
+																		yes -> {0: 3}
+																		no  -> Column c1: x >= 10?
+																				yes -> Column c1: x >= 12?
+																						yes -> Column s3: x >= 2?
+																								yes -> {2: 1}
+																								no  -> {1: 2}
+																						no  -> Column s1: x >= 2?
+																								yes -> {2: 1}
+																								no  -> Column c3: x >= 10?
+																										yes -> {2: 1}
+																										no  -> {0: 2}
+																				no  -> {1: 3}
+														no  -> {0: 4}
+				no  -> Column c5: x >= 10?
+						yes -> Column c1: x >= 10?
+								yes -> Column c1: x >= 13?
+										yes -> Column c3: x >= 13?
+												yes -> {3: 1}
+												no  -> Column c5: x >= 13?
+														yes -> {1: 11}
+														no  -> Column c4: x >= 13?
+																yes -> {1: 1}
+																no  -> {0: 28, 1: 13}
+										no  -> Column c1: x >= 12?
+												yes -> Column c2: x >= 3?
+														yes -> Column s4: x >= 4?
+																yes -> {1: 7}
+																no  -> Column c4: x >= 12?
+																		yes -> {1: 2}
+																		no  -> Column c4: x >= 8?
+																				yes -> {0: 7}
+																				no  -> Column c3: x >= 4?
+																						yes -> Column c4: x >= 4?
+																								yes -> Column s1: x >= 3?
+																										yes -> {1: 3}
+																										no  -> Column s3: x >= 3?
+																												yes -> {0: 2}
+																												no  -> {1: 1}
+																								no  -> {0: 5}
+																						no  -> {1: 3}
+														no  -> Column c5: x >= 13?
+																yes -> {0: 3}
+																no  -> Column c5: x >= 11?
+																		yes -> Column s2: x >= 2?
+																				yes -> Column s4: x >= 4?
+																						yes -> {0: 2}
+																						no  -> Column s1: x >= 3?
+																								yes -> Column s1: x >= 4?
+																										yes -> Column s2: x >= 3?
+																												yes -> Column c2: x >= 2?
+																														yes -> {0: 1}
+																														no  -> {2: 1}
+																												no  -> {2: 1}
+																										no  -> {0: 3}
+																								no  -> {2: 3}
+																				no  -> Column c3: x >= 7?
+																						yes -> {1: 6}
+																						no  -> {0: 1}
+																		no  -> Column s2: x >= 4?
+																				yes -> {1: 2}
+																				no  -> Column s1: x >= 4?
+																						yes -> {1: 1}
+																						no  -> {0: 2}
+												no  -> Column c4: x >= 12?
+														yes -> Column s1: x >= 4?
+																yes -> {0: 4}
+																no  -> Column s1: x >= 3?
+																		yes -> Column s5: x >= 2?
+																				yes -> {0: 4}
+																				no  -> {1: 2}
+																		no  -> {1: 5}
+														no  -> Column c3: x >= 12?
+																yes -> Column s1: x >= 2?
+																		yes -> {1: 9}
+																		no  -> {0: 4}
+																no  -> Column s2: x >= 2?
+																		yes -> Column c5: x >= 13?
+																				yes -> Column c1: x >= 11?
+																						yes -> Column s2: x >= 4?
+																								yes -> {3: 1}
+																								no  -> {0: 1}
+																						no  -> Column c2: x >= 3?
+																								yes -> Column c4: x >= 7?
+																										yes -> {1: 3}
+																										no  -> Column c3: x >= 10?
+																												yes -> {1: 2}
+																												no  -> {0: 4}
+																								no  -> {0: 4}
+																				no  -> Column c3: x >= 11?
+																						yes -> Column s2: x >= 4?
+																								yes -> {0: 1}
+																								no  -> {3: 3}
+																						no  -> Column s1: x >= 2?
+																								yes -> Column c4: x >= 2?
+																										yes -> Column s4: x >= 3?
+																												yes -> Column c5: x >= 12?
+																														yes -> {0: 7}
+																														no  -> Column s5: x >= 3?
+																																yes -> {1: 5}
+																																no  -> Column s2: x >= 3?
+																																		yes -> {0: 2}
+																																		no  -> {1: 2}
+																												no  -> Column c4: x >= 6?
+																														yes -> Column c5: x >= 12?
+																																yes -> Column s2: x >= 3?
+																																		yes -> {0: 3}
+																																		no  -> {2: 1}
+																																no  -> Column c4: x >= 7?
+																																		yes -> {1: 5}
+																																		no  -> {2: 2}
+																														no  -> Column s1: x >= 3?
+																																yes -> {1: 1}
+																																no  -> {0: 1}
+																										no  -> Column s3: x >= 3?
+																												yes -> {1: 2}
+																												no  -> {2: 1}
+																								no  -> Column s5: x >= 4?
+																										yes -> {0: 1}
+																										no  -> {1: 3}
+																		no  -> Column s3: x >= 2?
+																				yes -> Column c5: x >= 12?
+																						yes -> Column c3: x >= 10?
+																								yes -> {1: 2}
+																								no  -> {0: 5}
+																						no  -> {1: 7}
+																				no  -> Column s1: x >= 4?
+																						yes -> {3: 1}
+																						no  -> {0: 2}
+								no  -> {0: 32, 1: 22}
+						no  -> Column c3: x >= 10?
+								yes -> Column c3: x >= 13?
+										yes -> Column s2: x >= 2?
+												yes -> Column s2: x >= 4?
+														yes -> Column s1: x >= 4?
+																yes -> {1: 2}
+																no  -> Column c4: x >= 5?
+																		yes -> Column c1: x >= 12?
+																				yes -> {1: 2}
+																				no  -> Column c1: x >= 11?
+																						yes -> Column c4: x >= 10?
+																								yes -> {0: 1}
+																								no  -> {1: 2}
+																						no  -> {0: 2}
+																		no  -> {0: 4}
+														no  -> Column c4: x >= 2?
+																yes -> Column s1: x >= 4?
+																		yes -> Column c1: x >= 12?
+																				yes -> {1: 1}
+																				no  -> {0: 2}
+																		no  -> Column s5: x >= 2?
+																				yes -> Column c5: x >= 3?
+																						yes -> Column c5: x >= 6?
+																								yes -> Column s1: x >= 3?
+																										yes -> Column c1: x >= 11?
+																												yes -> {1: 1}
+																												no  -> {0: 2}
+																										no  -> {2: 2}
+																								no  -> Column s1: x >= 2?
+																										yes -> Column c1: x >= 11?
+																												yes -> Column s2: x >= 3?
+																														yes -> {1: 2}
+																														no  -> {5: 1}
+																												no  -> {5: 1}
+																										no  -> {1: 1}
+																						no  -> Column c1: x >= 13?
+																								yes -> {2: 2}
+																								no  -> {0: 3}
+																				no  -> Column s1: x >= 3?
+																						yes -> {0: 1}
+																						no  -> {1: 1}
+																no  -> {0: 2}
+												no  -> Column s4: x >= 3?
+														yes -> Column c5: x >= 4?
+																yes -> Column c1: x >= 12?
+																		yes -> Column c2: x >= 2?
+																				yes -> {1: 2}
+																				no  -> {0: 1}
+																		no  -> {0: 2}
+																no  -> {1: 3}
+														no  -> {0: 6}
+										no  -> Column c2: x >= 3?
+												yes -> Column c2: x >= 6?
+														yes -> Column c1: x >= 10?
+																yes -> {0: 12, 1: 11}
+																no  -> {0: 4}
+														no  -> Column c1: x >= 13?
+																yes -> Column c5: x >= 8?
+																		yes -> {0: 4}
+																		no  -> Column s5: x >= 4?
+																				yes -> {1: 3}
+																				no  -> Column c3: x >= 12?
+																						yes -> {0: 3}
+																						no  -> Column c2: x >= 4?
+																								yes -> Column c4: x >= 13?
+																										yes -> {1: 2}
+																										no  -> Column s2: x >= 2?
+																												yes -> Column c3: x >= 11?
+																														yes -> {1: 2}
+																														no  -> {0: 1}
+																												no  -> {0: 3}
+																								no  -> {1: 2}
+																no  -> Column c3: x >= 11?
+																		yes -> Column s1: x >= 4?
+																				yes -> {0: 6}
+																				no  -> Column s2: x >= 2?
+																						yes -> Column c4: x >= 3?
+																								yes -> Column s4: x >= 4?
+																										yes -> {2: 1}
+																										no  -> Column c1: x >= 11?
+																												yes -> Column s5: x >= 4?
+																														yes -> {1: 1}
+																														no  -> Column c4: x >= 4?
+																																yes -> Column s4: x >= 2?
+																																		yes -> Column c1: x >= 12?
+																																				yes -> {0: 2}
+																																				no  -> Column c2: x >= 5?
+																																						yes -> {0: 1}
+																																						no  -> {1: 3}
+																																		no  -> Column s2: x >= 4?
+																																				yes -> {2: 2}
+																																				no  -> {0: 1}
+																																no  -> {2: 1}
+																												no  -> Column s1: x >= 2?
+																														yes -> {0: 2}
+																														no  -> {1: 2}
+																								no  -> Column s2: x >= 3?
+																										yes -> {0: 3}
+																										no  -> {1: 2}
+																						no  -> Column c5: x >= 9?
+																								yes -> {1: 3}
+																								no  -> Column c4: x >= 7?
+																										yes -> {0: 4}
+																										no  -> Column c1: x >= 11?
+																												yes -> {1: 3}
+																												no  -> {0: 1}
+																		no  -> Column c2: x >= 4?
+																				yes -> Column c4: x >= 13?
+																						yes -> {0: 2}
+																						no  -> {1: 5}
+																				no  -> {0: 4}
+												no  -> {0: 29, 1: 21}
+								no  -> Column c4: x >= 10?
+										yes -> Column c4: x >= 11?
+												yes -> Column s1: x >= 2?
+														yes -> Column c5: x >= 7?
+																yes -> Column s4: x >= 4?
+																		yes -> {0: 5}
+																		no  -> Column c2: x >= 6?
+																				yes -> {0: 2}
+																				no  -> Column c4: x >= 13?
+																						yes -> Column c1: x >= 10?
+																								yes -> {0: 5}
+																								no  -> {1: 2}
+																						no  -> {1: 3}
+																no  -> Column s3: x >= 2?
+																		yes -> Column c1: x >= 13?
+																				yes -> {2: 2}
+																				no  -> Column s4: x >= 4?
+																						yes -> Column s1: x >= 3?
+																								yes -> {2: 1}
+																								no  -> {0: 1}
+																						no  -> Column c5: x >= 2?
+																								yes -> Column c2: x >= 3?
+																										yes -> Column c3: x >= 6?
+																												yes -> Column c2: x >= 4?
+																														yes -> Column c1: x >= 10?
+																																yes -> Column s1: x >= 3?
+																																		yes -> {1: 1}
+																																		no  -> Column c1: x >= 11?
+																																				yes -> {1: 1}
+																																				no  -> {0: 2}
+																																no  -> {0: 1}
+																														no  -> Column s2: x >= 2?
+																																yes -> {2: 2}
+																																no  -> {0: 1}
+																												no  -> Column c3: x >= 4?
+																														yes -> Column c5: x >= 5?
+																																yes -> {2: 1}
+																																no  -> {0: 3}
+																														no  -> {2: 2}
+																										no  -> Column s5: x >= 2?
+																												yes -> Column s4: x >= 3?
+																														yes -> Column c1: x >= 10?
+																																yes -> Column c4: x >= 12?
+																																		yes -> {0: 3}
+																																		no  -> {1: 1}
+																																no  -> {1: 2}
+																														no  -> {1: 3}
+																												no  -> {0: 3}
+																								no  -> Column c1: x >= 11?
+																										yes -> {2: 1}
+																										no  -> {0: 1}
+																		no  -> Column c1: x >= 11?
+																				yes -> {1: 3}
+																				no  -> Column c1: x >= 10?
+																						yes -> {0: 4}
+																						no  -> Column c5: x >= 5?
+																								yes -> {0: 2}
+																								no  -> {1: 4}
+														no  -> Column s2: x >= 4?
+																yes -> {0: 5}
+																no  -> Column c3: x >= 7?
+																		yes -> {0: 3}
+																		no  -> Column s2: x >= 2?
+																				yes -> {1: 6}
+																				no  -> Column c1: x >= 11?
+																						yes -> {0: 6}
+																						no  -> {1: 2}
+												no  -> Column s3: x >= 4?
+														yes -> {0: 12}
+														no  -> Column c3: x >= 3?
+																yes -> Column c5: x >= 9?
+																		yes -> {0: 2}
+																		no  -> Column s1: x >= 4?
+																				yes -> {1: 4}
+																				no  -> Column c3: x >= 4?
+																						yes -> Column c5: x >= 2?
+																								yes -> Column s2: x >= 2?
+																										yes -> Column c3: x >= 7?
+																												yes -> {0: 4}
+																												no  -> Column s1: x >= 3?
+																														yes -> {0: 2}
+																														no  -> Column c2: x >= 5?
+																																yes -> Column c5: x >= 6?
+																																		yes -> {0: 2}
+																																		no  -> Column c5: x >= 4?
+																																				yes -> {1: 2}
+																																				no  -> {0: 1}
+																																no  -> {1: 3}
+																										no  -> {1: 2}
+																								no  -> {0: 3}
+																						no  -> {0: 3}
+																no  -> {0: 3}
+										no  -> Column c1: x >= 11?
+												yes -> Column c3: x >= 6?
+														yes -> {0: 50, 1: 40}
+														no  -> Column s5: x >= 2?
+																yes -> Column s4: x >= 3?
+																		yes -> Column s2: x >= 3?
+																				yes -> Column c1: x >= 12?
+																						yes -> Column s3: x >= 3?
+																								yes -> Column s1: x >= 2?
+																										yes -> {0: 3}
+																										no  -> {3: 1}
+																								no  -> Column s4: x >= 4?
+																										yes -> {3: 2}
+																										no  -> {1: 3}
+																						no  -> Column c5: x >= 9?
+																								yes -> {0: 3}
+																								no  -> Column c3: x >= 2?
+																										yes -> {1: 3}
+																										no  -> {0: 1}
+																				no  -> Column c4: x >= 3?
+																						yes -> Column c2: x >= 2?
+																								yes -> Column c5: x >= 2?
+																										yes -> Column c4: x >= 4?
+																												yes -> Column c2: x >= 6?
+																														yes -> {1: 3}
+																														no  -> Column c4: x >= 7?
+																																yes -> Column c5: x >= 7?
+																																		yes -> {0: 3}
+																																		no  -> Column c1: x >= 12?
+																																				yes -> Column s2: x >= 2?
+																																						yes -> {1: 2}
+																																						no  -> Column c3: x >= 5?
+																																								yes -> {1: 1}
+																																								no  -> {0: 2}
+																																				no  -> {1: 2}
+																																no  -> {1: 1}
+																												no  -> {0: 1}
+																										no  -> {0: 2}
+																								no  -> {0: 2}
+																						no  -> {1: 3}
+																		no  -> Column c2: x >= 6?
+																				yes -> {0: 4}
+																				no  -> Column c5: x >= 9?
+																						yes -> {0: 3}
+																						no  -> Column c4: x >= 9?
+																								yes -> {0: 2}
+																								no  -> Column c4: x >= 2?
+																										yes -> Column c4: x >= 8?
+																												yes -> {1: 2}
+																												no  -> Column c2: x >= 3?
+																														yes -> {0: 7}
+																														no  -> Column c1: x >= 12?
+																																yes -> Column c4: x >= 7?
+																																		yes -> {0: 1}
+																																		no  -> Column s3: x >= 2?
+																																				yes -> {1: 5}
+																																				no  -> {0: 2}
+																																no  -> {1: 3}
+																										no  -> {1: 2}
+																no  -> Column s3: x >= 2?
+																		yes -> Column c3: x >= 5?
+																				yes -> {0: 1}
+																				no  -> Column c2: x >= 2?
+																						yes -> Column s2: x >= 4?
+																								yes -> {1: 1}
+																								no  -> {0: 10, 1: 7}
+																						no  -> {1: 1}
+																		no  -> Column c1: x >= 13?
+																				yes -> Column s2: x >= 4?
+																						yes -> {1: 1}
+																						no  -> {5: 1}
+																				no  -> {0: 1}
+												no  -> Column c1: x >= 10?
+														yes -> Column s2: x >= 2?
+																yes -> Column s4: x >= 3?
+																		yes -> Column s1: x >= 3?
+																				yes -> Column c5: x >= 4?
+																						yes -> Column c3: x >= 3?
+																								yes -> Column s3: x >= 3?
+																										yes -> Column c3: x >= 7?
+																												yes -> {0: 1}
+																												no  -> {5: 2}
+																										no  -> Column s4: x >= 4?
+																												yes -> {2: 2}
+																												no  -> {1: 1}
+																								no  -> Column s1: x >= 4?
+																										yes -> {0: 3}
+																										no  -> {1: 2}
+																						no  -> {1: 3}
+																				no  -> Column s1: x >= 2?
+																						yes -> Column s3: x >= 2?
+																								yes -> Column c5: x >= 6?
+																										yes -> Column s5: x >= 3?
+																												yes -> Column c4: x >= 4?
+																														yes -> {1: 3}
+																														no  -> {0: 1}
+																												no  -> {0: 2}
+																										no  -> {0: 3}
+																								no  -> {1: 4}
+																						no  -> Column s2: x >= 3?
+																								yes -> Column c3: x >= 6?
+																										yes -> Column c3: x >= 9?
+																												yes -> {2: 1}
+																												no  -> {1: 2}
+																										no  -> {2: 2}
+																								no  -> {0: 1}
+																		no  -> Column s4: x >= 2?
+																				yes -> Column c3: x >= 9?
+																						yes -> Column c4: x >= 9?
+																								yes -> {1: 1}
+																								no  -> {0: 2}
+																						no  -> {1: 4}
+																				no  -> {0: 6}
+																no  -> Column c4: x >= 4?
+																		yes -> Column c4: x >= 6?
+																				yes -> Column c5: x >= 4?
+																						yes -> Column c2: x >= 3?
+																								yes -> Column c3: x >= 7?
+																										yes -> {1: 1}
+																										no  -> {0: 3}
+																								no  -> {1: 3}
+																						no  -> {0: 2}
+																				no  -> {0: 3}
+																		no  -> {1: 6}
+														no  -> Column s3: x >= 2?
+																yes -> Column c4: x >= 2?
+																		yes -> Column c3: x >= 6?
+																				yes -> Column s5: x >= 3?
+																						yes -> Column s1: x >= 2?
+																								yes -> Column s2: x >= 4?
+																										yes -> {1: 2}
+																										no  -> Column s3: x >= 4?
+																												yes -> Column s1: x >= 4?
+																														yes -> Column c2: x >= 6?
+																																yes -> {1: 1}
+																																no  -> {0: 1}
+																														no  -> {3: 1}
+																												no  -> Column c4: x >= 7?
+																														yes -> {3: 2}
+																														no  -> {2: 2}
+																								no  -> {0: 2}
+																						no  -> Column s1: x >= 2?
+																								yes -> Column c4: x >= 6?
+																										yes -> Column c2: x >= 3?
+																												yes -> {0: 2}
+																												no  -> {1: 1}
+																										no  -> {1: 2}
+																								no  -> {3: 1}
+																				no  -> Column s2: x >= 3?
+																						yes -> Column s5: x >= 3?
+																								yes -> Column c5: x >= 9?
+																										yes -> {1: 2}
+																										no  -> {0: 4}
+																								no  -> Column s3: x >= 3?
+																										yes -> Column s1: x >= 4?
+																												yes -> Column c2: x >= 3?
+																														yes -> {2: 2}
+																														no  -> {1: 1}
+																												no  -> {1: 3}
+																										no  -> {2: 2}
+																						no  -> Column s5: x >= 3?
+																								yes -> {1: 3}
+																								no  -> Column s2: x >= 2?
+																										yes -> {0: 2}
+																										no  -> Column s4: x >= 3?
+																												yes -> Column c3: x >= 3?
+																														yes -> {0: 2}
+																														no  -> {1: 1}
+																												no  -> {1: 2}
+																		no  -> Column c2: x >= 4?
+																				yes -> {0: 2}
+																				no  -> Column s2: x >= 3?
+																						yes -> {1: 2}
+																						no  -> {3: 1}
+																no  -> Column c3: x >= 8?
+																		yes -> {1: 4}
+																		no  -> Column c3: x >= 7?
+																				yes -> {0: 3}
+																				no  -> Column s5: x >= 3?
+																						yes -> {1: 3}
+																						no  -> Column s2: x >= 2?
+																								yes -> {0: 3}
+																								no  -> {1: 1}
+		no  -> Column c5: x >= 9?
+				yes -> Column c4: x >= 11?
+						yes -> Column c3: x >= 11?
+								yes -> Column s5: x >= 3?
+										yes -> Column s2: x >= 2?
+												yes -> Column c3: x >= 12?
+														yes -> Column s3: x >= 2?
+																yes -> Column c4: x >= 12?
+																		yes -> Column c2: x >= 4?
+																				yes -> Column s1: x >= 3?
+																						yes -> {1: 1}
+																						no  -> {0: 3}
+																				no  -> {1: 4}
+																		no  -> {0: 7}
+																no  -> {1: 2}
+														no  -> {1: 4}
+												no  -> Column c1: x >= 6?
+														yes -> {0: 2}
+														no  -> Column s1: x >= 3?
+																yes -> {6: 1}
+																no  -> {1: 1}
+										no  -> Column s1: x >= 3?
+												yes -> Column c1: x >= 6?
+														yes -> {1: 3}
+														no  -> Column c3: x >= 12?
+																yes -> {0: 4}
+																no  -> {2: 1}
+												no  -> Column c2: x >= 6?
+														yes -> {3: 2}
+														no  -> Column c1: x >= 5?
+																yes -> {6: 1}
+																no  -> {1: 2}
+								no  -> Column s3: x >= 3?
+										yes -> {0: 36, 1: 23}
+										no  -> Column c1: x >= 3?
+												yes -> Column s3: x >= 2?
+														yes -> Column c2: x >= 2?
+																yes -> Column s4: x >= 2?
+																		yes -> Column c1: x >= 8?
+																				yes -> {0: 1}
+																				no  -> Column c3: x >= 2?
+																						yes -> Column c1: x >= 4?
+																								yes -> Column s1: x >= 3?
+																										yes -> {1: 2}
+																										no  -> Column c1: x >= 5?
+																												yes -> {2: 2}
+																												no  -> {1: 1}
+																								no  -> Column c3: x >= 4?
+																										yes -> {0: 3}
+																										no  -> {2: 1}
+																						no  -> {0: 1}
+																		no  -> Column c1: x >= 6?
+																				yes -> {1: 1}
+																				no  -> {0: 3}
+																no  -> Column s4: x >= 4?
+																		yes -> {0: 3}
+																		no  -> Column s1: x >= 2?
+																				yes -> {1: 2}
+																				no  -> {0: 1}
+														no  -> Column c2: x >= 6?
+																yes -> {1: 5}
+																no  -> Column c1: x >= 6?
+																		yes -> Column c3: x >= 3?
+																				yes -> Column s2: x >= 4?
+																						yes -> {0: 1}
+																						no  -> {1: 2}
+																				no  -> {0: 2}
+																		no  -> {0: 4}
+												no  -> Column s4: x >= 3?
+														yes -> Column s3: x >= 2?
+																yes -> Column s2: x >= 3?
+																		yes -> Column c5: x >= 11?
+																				yes -> {0: 3}
+																				no  -> {1: 1}
+																		no  -> {1: 4}
+																no  -> {0: 2}
+														no  -> {0: 7}
+						no  -> Column c5: x >= 13?
+								yes -> Column c3: x >= 13?
+										yes -> {1: 2}
+										no  -> {0: 67, 1: 35}
+								no  -> Column c5: x >= 12?
+										yes -> Column c2: x >= 4?
+												yes -> Column s1: x >= 3?
+														yes -> Column s4: x >= 3?
+																yes -> Column c3: x >= 13?
+																		yes -> {0: 2}
+																		no  -> Column c3: x >= 3?
+																				yes -> Column s2: x >= 3?
+																						yes -> Column s5: x >= 3?
+																								yes -> {5: 3}
+																								no  -> {0: 2}
+																						no  -> Column c1: x >= 6?
+																								yes -> {1: 4}
+																								no  -> {0: 1}
+																				no  -> {1: 1}
+																no  -> Column c3: x >= 4?
+																		yes -> Column s3: x >= 2?
+																				yes -> Column s3: x >= 3?
+																						yes -> Column c1: x >= 6?
+																								yes -> {0: 1}
+																								no  -> Column s3: x >= 4?
+																										yes -> Column c2: x >= 5?
+																												yes -> {1: 1}
+																												no  -> {0: 1}
+																										no  -> {1: 1}
+																						no  -> {0: 2}
+																				no  -> {1: 3}
+																		no  -> {0: 4}
+														no  -> Column c3: x >= 3?
+																yes -> Column c1: x >= 3?
+																		yes -> Column s4: x >= 3?
+																				yes -> Column c4: x >= 4?
+																						yes -> {1: 4}
+																						no  -> {0: 3}
+																				no  -> Column c1: x >= 8?
+																						yes -> {0: 2}
+																						no  -> Column c3: x >= 13?
+																								yes -> {1: 1}
+																								no  -> Column s1: x >= 2?
+																										yes -> Column s5: x >= 2?
+																												yes -> Column s2: x >= 4?
+																														yes -> {1: 1}
+																														no  -> Column c2: x >= 5?
+																																yes -> Column c1: x >= 5?
+																																		yes -> Column c4: x >= 2?
+																																				yes -> {2: 2}
+																																				no  -> {1: 1}
+																																		no  -> {1: 1}
+																																no  -> {2: 1}
+																												no  -> {0: 1}
+																										no  -> {0: 3}
+																		no  -> {0: 4}
+																no  -> Column s2: x >= 2?
+																		yes -> {0: 3}
+																		no  -> {5: 1}
+												no  -> Column c4: x >= 4?
+														yes -> Column c1: x >= 2?
+																yes -> Column c3: x >= 3?
+																		yes -> Column c1: x >= 8?
+																				yes -> {0: 1}
+																				no  -> Column c1: x >= 6?
+																						yes -> {1: 4}
+																						no  -> Column c3: x >= 5?
+																								yes -> Column s2: x >= 4?
+																										yes -> {0: 3}
+																										no  -> Column c2: x >= 2?
+																												yes -> Column s2: x >= 3?
+																														yes -> Column s5: x >= 4?
+																																yes -> {0: 2}
+																																no  -> Column s3: x >= 4?
+																																		yes -> Column s1: x >= 3?
+																																				yes -> Column c3: x >= 13?
+																																						yes -> {0: 1}
+																																						no  -> {1: 2}
+																																				no  -> {0: 1}
+																																		no  -> {1: 2}
+																														no  -> {0: 3}
+																												no  -> {1: 2}
+																								no  -> {0: 4}
+																		no  -> {1: 2}
+																no  -> {0: 3}
+														no  -> Column c3: x >= 6?
+																yes -> Column s1: x >= 4?
+																		yes -> {0: 1}
+																		no  -> Column c1: x >= 8?
+																				yes -> {0: 1}
+																				no  -> Column s2: x >= 4?
+																						yes -> {0: 1}
+																						no  -> Column s4: x >= 3?
+																								yes -> Column c1: x >= 7?
+																										yes -> {1: 1}
+																										no  -> Column s1: x >= 3?
+																												yes -> {0: 2}
+																												no  -> Column c1: x >= 3?
+																														yes -> {0: 1}
+																														no  -> {1: 2}
+																								no  -> {1: 1}
+																no  -> Column c2: x >= 3?
+																		yes -> {3: 2}
+																		no  -> Column s3: x >= 4?
+																				yes -> {2: 2}
+																				no  -> Column s1: x >= 2?
+																						yes -> {0: 2}
+																						no  -> {1: 1}
+										no  -> Column c2: x >= 5?
+												yes -> Column c3: x >= 6?
+														yes -> {0: 45, 1: 30}
+														no  -> Column s2: x >= 3?
+																yes -> Column c1: x >= 5?
+																		yes -> Column s1: x >= 4?
+																				yes -> {0: 2}
+																				no  -> Column s1: x >= 3?
+																						yes -> {1: 2}
+																						no  -> Column c1: x >= 7?
+																								yes -> Column s1: x >= 2?
+																										yes -> {0: 1}
+																										no  -> {1: 1}
+																								no  -> {2: 2}
+																		no  -> Column s1: x >= 2?
+																				yes -> Column s1: x >= 4?
+																						yes -> {0: 2}
+																						no  -> Column s4: x >= 4?
+																								yes -> {1: 2}
+																								no  -> Column s4: x >= 2?
+																										yes -> {0: 3}
+																										no  -> Column c1: x >= 4?
+																												yes -> {1: 2}
+																												no  -> Column c2: x >= 6?
+																														yes -> {0: 2}
+																														no  -> {1: 1}
+																				no  -> {1: 2}
+																no  -> Column c1: x >= 3?
+																		yes -> Column s1: x >= 4?
+																				yes -> {1: 2}
+																				no  -> {0: 9, 1: 8}
+																		no  -> {0: 4}
+												no  -> Column s4: x >= 3?
+														yes -> Column s1: x >= 4?
+																yes -> Column c4: x >= 3?
+																		yes -> Column c3: x >= 3?
+																				yes -> Column s4: x >= 4?
+																						yes -> Column s5: x >= 3?
+																								yes -> {0: 2}
+																								no  -> Column s2: x >= 3?
+																										yes -> {1: 2}
+																										no  -> Column c2: x >= 3?
+																												yes -> {1: 1}
+																												no  -> {0: 2}
+																						no  -> {0: 2}
+																				no  -> {1: 3}
+																		no  -> {0: 3}
+																no  -> Column c3: x >= 12?
+																		yes -> Column c2: x >= 3?
+																				yes -> Column c1: x >= 5?
+																						yes -> Column c4: x >= 10?
+																								yes -> {1: 1}
+																								no  -> {0: 3}
+																						no  -> {1: 4}
+																				no  -> {0: 5}
+																		no  -> Column s3: x >= 4?
+																				yes -> Column s2: x >= 2?
+																						yes -> {1: 5}
+																						no  -> Column c4: x >= 4?
+																								yes -> {0: 4}
+																								no  -> {1: 2}
+																				no  -> Column c4: x >= 10?
+																						yes -> {0: 3}
+																						no  -> Column c2: x >= 2?
+																								yes -> Column c3: x >= 2?
+																										yes -> Column c4: x >= 2?
+																												yes -> Column c1: x >= 2?
+																														yes -> Column c1: x >= 8?
+																																yes -> {2: 2}
+																																no  -> Column c5: x >= 10?
+																																		yes -> Column c3: x >= 10?
+																																				yes -> Column c1: x >= 7?
+																																						yes -> {1: 1}
+																																						no  -> {2: 2}
+																																				no  -> Column c2: x >= 3?
+																																						yes -> {0: 3}
+																																						no  -> {1: 2}
+																																		no  -> {0: 2}
+																														no  -> Column s2: x >= 4?
+																																yes -> {1: 3}
+																																no  -> Column s2: x >= 3?
+																																		yes -> {0: 1}
+																																		no  -> {1: 1}
+																												no  -> Column c1: x >= 3?
+																														yes -> {0: 2}
+																														no  -> {1: 1}
+																										no  -> Column c1: x >= 4?
+																												yes -> {1: 2}
+																												no  -> {0: 1}
+																								no  -> {0: 2}
+														no  -> Column s2: x >= 4?
+																yes -> Column c4: x >= 5?
+																		yes -> Column c5: x >= 10?
+																				yes -> Column c2: x >= 2?
+																						yes -> Column c3: x >= 12?
+																								yes -> {0: 2}
+																								no  -> Column c1: x >= 7?
+																										yes -> {1: 2}
+																										no  -> Column c5: x >= 11?
+																												yes -> {0: 4}
+																												no  -> Column c1: x >= 2?
+																														yes -> {1: 3}
+																														no  -> Column c3: x >= 5?
+																																yes -> {0: 1}
+																																no  -> {1: 1}
+																						no  -> {1: 3}
+																				no  -> {0: 3}
+																		no  -> Column s3: x >= 3?
+																				yes -> Column s1: x >= 3?
+																						yes -> {2: 2}
+																						no  -> {0: 2}
+																				no  -> Column c4: x >= 3?
+																						yes -> {1: 3}
+																						no  -> Column s3: x >= 2?
+																								yes -> {0: 2}
+																								no  -> Column c3: x >= 12?
+																										yes -> {0: 1}
+																										no  -> {1: 2}
+																no  -> Column c3: x >= 9?
+																		yes -> Column c4: x >= 6?
+																				yes -> Column c2: x >= 3?
+																						yes -> {1: 4}
+																						no  -> {0: 4}
+																				no  -> {0: 10}
+																		no  -> Column s3: x >= 2?
+																				yes -> Column c5: x >= 10?
+																						yes -> Column c4: x >= 2?
+																								yes -> Column c4: x >= 9?
+																										yes -> Column c2: x >= 3?
+																												yes -> {0: 3}
+																												no  -> {1: 3}
+																										no  -> Column c1: x >= 3?
+																												yes -> Column c3: x >= 8?
+																														yes -> {3: 1}
+																														no  -> Column c4: x >= 6?
+																																yes -> {0: 3}
+																																no  -> Column c2: x >= 2?
+																																		yes -> Column s5: x >= 3?
+																																				yes -> {3: 4}
+																																				no  -> {1: 2}
+																																		no  -> Column s1: x >= 2?
+																																				yes -> {0: 2}
+																																				no  -> {1: 2}
+																												no  -> {1: 2}
+																								no  -> {1: 2}
+																						no  -> {0: 8}
+																				no  -> Column s1: x >= 2?
+																						yes -> Column c4: x >= 9?
+																								yes -> {1: 2}
+																								no  -> Column c3: x >= 8?
+																										yes -> {0: 2}
+																										no  -> Column c1: x >= 3?
+																												yes -> Column c2: x >= 3?
+																														yes -> Column s2: x >= 2?
+																																yes -> {1: 2}
+																																no  -> {0: 1}
+																														no  -> {0: 2}
+																												no  -> {1: 2}
+																						no  -> {0: 2}
+				no  -> Column c5: x >= 5?
+						yes -> Column c3: x >= 10?
+								yes -> Column c4: x >= 10?
+										yes -> Column s2: x >= 3?
+												yes -> Column c1: x >= 3?
+														yes -> Column s5: x >= 4?
+																yes -> {1: 2}
+																no  -> Column s4: x >= 2?
+																		yes -> Column c1: x >= 6?
+																				yes -> {1: 3}
+																				no  -> Column c2: x >= 4?
+																						yes -> Column s2: x >= 4?
+																								yes -> {1: 2}
+																								no  -> Column c3: x >= 13?
+																										yes -> {1: 1}
+																										no  -> {0: 2}
+																						no  -> {0: 4}
+																		no  -> {0: 4}
+														no  -> Column c4: x >= 12?
+																yes -> Column s5: x >= 3?
+																		yes -> {5: 1}
+																		no  -> {1: 3}
+																no  -> {0: 4}
+												no  -> Column c1: x >= 7?
+														yes -> Column s1: x >= 4?
+																yes -> {0: 1}
+																no  -> {2: 2}
+														no  -> Column s3: x >= 2?
+																yes -> {0: 10, 1: 9}
+																no  -> {0: 2}
+										no  -> Column s1: x >= 4?
+												yes -> {0: 17, 1: 17}
+												no  -> Column c1: x >= 5?
+														yes -> Column c4: x >= 6?
+																yes -> Column c2: x >= 6?
+																		yes -> Column c1: x >= 8?
+																				yes -> {1: 1}
+																				no  -> {2: 2}
+																		no  -> Column s3: x >= 2?
+																				yes -> Column s3: x >= 3?
+																						yes -> Column s2: x >= 2?
+																								yes -> Column c1: x >= 8?
+																										yes -> {1: 2}
+																										no  -> Column c3: x >= 11?
+																												yes -> {3: 2}
+																												no  -> Column s2: x >= 4?
+																														yes -> {0: 1}
+																														no  -> {1: 1}
+																								no  -> {0: 3}
+																						no  -> {3: 1}
+																				no  -> Column s2: x >= 4?
+																						yes -> {1: 1}
+																						no  -> {0: 2}
+																no  -> Column c1: x >= 7?
+																		yes -> Column c2: x >= 7?
+																				yes -> {1: 4}
+																				no  -> Column s5: x >= 3?
+																						yes -> Column c2: x >= 2?
+																								yes -> Column s2: x >= 3?
+																										yes -> {0: 2}
+																										no  -> Column s4: x >= 3?
+																												yes -> Column c1: x >= 8?
+																														yes -> {0: 2}
+																														no  -> Column s1: x >= 3?
+																																yes -> {1: 1}
+																																no  -> {0: 1}
+																												no  -> {1: 3}
+																								no  -> {1: 1}
+																						no  -> {0: 4}
+																		no  -> {0: 6}
+														no  -> Column s5: x >= 3?
+																yes -> Column s5: x >= 4?
+																		yes -> Column c1: x >= 2?
+																				yes -> Column s4: x >= 3?
+																						yes -> Column c5: x >= 8?
+																								yes -> {1: 3}
+																								no  -> Column s3: x >= 3?
+																										yes -> {0: 2}
+																										no  -> {1: 1}
+																						no  -> {0: 3}
+																				no  -> {1: 2}
+																		no  -> Column s2: x >= 2?
+																				yes -> Column c1: x >= 4?
+																						yes -> {0: 2}
+																						no  -> Column c5: x >= 6?
+																								yes -> Column s1: x >= 2?
+																										yes -> Column c4: x >= 8?
+																												yes -> {1: 1}
+																												no  -> {2: 2}
+																										no  -> {1: 1}
+																								no  -> {0: 2}
+																				no  -> {1: 2}
+																no  -> Column c4: x >= 9?
+																		yes -> {0: 2}
+																		no  -> Column c2: x >= 7?
+																				yes -> {0: 1}
+																				no  -> Column c2: x >= 6?
+																						yes -> {1: 2}
+																						no  -> Column c3: x >= 13?
+																								yes -> {0: 6}
+																								no  -> Column c5: x >= 8?
+																										yes -> {1: 5}
+																										no  -> Column c5: x >= 7?
+																												yes -> {0: 3}
+																												no  -> Column s2: x >= 3?
+																														yes -> {1: 2}
+																														no  -> Column s1: x >= 3?
+																																yes -> Column c1: x >= 3?
+																																		yes -> {0: 1}
+																																		no  -> {1: 1}
+																																no  -> {0: 2}
+								no  -> Column s5: x >= 4?
+										yes -> Column s4: x >= 3?
+												yes -> Column c4: x >= 4?
+														yes -> Column c4: x >= 12?
+																yes -> Column s1: x >= 2?
+																		yes -> Column s1: x >= 3?
+																				yes -> Column c1: x >= 6?
+																						yes -> {0: 1}
+																						no  -> {1: 3}
+																				no  -> {0: 3}
+																		no  -> {1: 2}
+																no  -> Column s2: x >= 3?
+																		yes -> Column c4: x >= 6?
+																				yes -> Column c5: x >= 7?
+																						yes -> Column c1: x >= 4?
+																								yes -> Column s3: x >= 4?
+																										yes -> {0: 1}
+																										no  -> {1: 2}
+																								no  -> {0: 3}
+																						no  -> {1: 4}
+																				no  -> Column s1: x >= 4?
+																						yes -> {2: 1}
+																						no  -> {0: 1}
+																		no  -> Column s4: x >= 4?
+																				yes -> Column c2: x >= 5?
+																						yes -> {2: 2}
+																						no  -> {1: 3}
+																				no  -> Column c1: x >= 7?
+																						yes -> {0: 2}
+																						no  -> Column c2: x >= 7?
+																								yes -> {1: 1}
+																								no  -> Column s1: x >= 3?
+																										yes -> Column c1: x >= 6?
+																												yes -> Column c2: x >= 6?
+																														yes -> {3: 1}
+																														no  -> {0: 1}
+																												no  -> Column c1: x >= 4?
+																														yes -> {1: 2}
+																														no  -> {3: 1}
+																										no  -> {0: 2}
+														no  -> Column s2: x >= 4?
+																yes -> Column c1: x >= 6?
+																		yes -> Column s3: x >= 4?
+																				yes -> {5: 2}
+																				no  -> {0: 2}
+																		no  -> Column s1: x >= 4?
+																				yes -> {8: 1}
+																				no  -> {1: 1}
+																no  -> Column c5: x >= 7?
+																		yes -> Column s1: x >= 4?
+																				yes -> {0: 2}
+																				no  -> {2: 2}
+																		no  -> {1: 3}
+												no  -> Column c1: x >= 8?
+														yes -> Column s1: x >= 3?
+																yes -> {6: 1}
+																no  -> {1: 3}
+														no  -> Column c2: x >= 7?
+																yes -> {1: 2}
+																no  -> Column c4: x >= 2?
+																		yes -> Column c4: x >= 4?
+																				yes -> Column c1: x >= 7?
+																						yes -> {1: 1}
+																						no  -> Column c4: x >= 13?
+																								yes -> {1: 1}
+																								no  -> {0: 14, 1: 8}
+																				no  -> {1: 4}
+																		no  -> {0: 2}
+										no  -> Column c4: x >= 10?
+												yes -> Column s4: x >= 4?
+														yes -> Column s2: x >= 4?
+																yes -> {0: 2}
+																no  -> Column c2: x >= 2?
+																		yes -> Column c2: x >= 5?
+																				yes -> {2: 3}
+																				no  -> Column c2: x >= 3?
+																						yes -> Column c4: x >= 11?
+																								yes -> Column s3: x >= 3?
+																										yes -> {1: 2}
+																										no  -> {0: 1}
+																								no  -> {0: 2}
+																						no  -> {2: 1}
+																		no  -> {0: 2}
+														no  -> Column c2: x >= 5?
+																yes -> Column c1: x >= 3?
+																		yes -> Column c3: x >= 6?
+																				yes -> Column s3: x >= 3?
+																						yes -> Column s1: x >= 4?
+																								yes -> Column c1: x >= 7?
+																										yes -> {0: 1}
+																										no  -> {3: 2}
+																								no  -> {0: 3}
+																						no  -> {3: 2}
+																				no  -> Column c4: x >= 13?
+																						yes -> {1: 5}
+																						no  -> Column s4: x >= 2?
+																								yes -> Column s1: x >= 4?
+																										yes -> {0: 1}
+																										no  -> Column s1: x >= 3?
+																												yes -> {1: 2}
+																												no  -> {0: 1}
+																								no  -> {0: 3}
+																		no  -> Column s2: x >= 4?
+																				yes -> {0: 3}
+																				no  -> Column c5: x >= 8?
+																						yes -> {0: 2}
+																						no  -> Column s1: x >= 3?
+																								yes -> {1: 2}
+																								no  -> Column s1: x >= 2?
+																										yes -> {0: 2}
+																										no  -> {1: 1}
+																no  -> Column c5: x >= 8?
+																		yes -> {0: 5}
+																		no  -> Column s1: x >= 2?
+																				yes -> Column c3: x >= 9?
+																						yes -> {1: 2}
+																						no  -> Column c1: x >= 8?
+																								yes -> {0: 2}
+																								no  -> Column c1: x >= 7?
+																										yes -> {1: 1}
+																										no  -> Column s3: x >= 4?
+																												yes -> {0: 2}
+																												no  -> Column s3: x >= 3?
+																														yes -> {1: 3}
+																														no  -> Column c5: x >= 7?
+																																yes -> {0: 3}
+																																no  -> Column c2: x >= 3?
+																																		yes -> Column c4: x >= 13?
+																																				yes -> {1: 2}
+																																				no  -> {0: 2}
+																																		no  -> {1: 3}
+																				no  -> {1: 2}
+												no  -> Column c2: x >= 2?
+														yes -> Column c1: x >= 6?
+																yes -> Column c2: x >= 4?
+																		yes -> Column s1: x >= 4?
+																				yes -> Column c4: x >= 4?
+																						yes -> {1: 5}
+																						no  -> Column c3: x >= 9?
+																								yes -> {0: 2}
+																								no  -> Column s3: x >= 4?
+																										yes -> Column s2: x >= 3?
+																												yes -> {1: 1}
+																												no  -> {0: 2}
+																										no  -> {1: 2}
+																				no  -> Column c1: x >= 8?
+																						yes -> Column c5: x >= 7?
+																								yes -> {2: 2}
+																								no  -> Column c2: x >= 7?
+																										yes -> Column s1: x >= 3?
+																												yes -> {4: 1}
+																												no  -> {0: 1}
+																										no  -> {1: 2}
+																						no  -> Column s3: x >= 4?
+																								yes -> {1: 3}
+																								no  -> Column c1: x >= 7?
+																										yes -> Column s1: x >= 3?
+																												yes -> {1: 1}
+																												no  -> Column c3: x >= 5?
+																														yes -> {0: 2}
+																														no  -> Column s3: x >= 2?
+																																yes -> {1: 2}
+																																no  -> {0: 1}
+																										no  -> Column c3: x >= 5?
+																												yes -> {4: 2}
+																												no  -> {0: 2}
+																		no  -> Column s3: x >= 2?
+																				yes -> Column s5: x >= 3?
+																						yes -> {1: 3}
+																						no  -> Column c1: x >= 7?
+																								yes -> Column s1: x >= 3?
+																										yes -> Column s2: x >= 4?
+																												yes -> {0: 2}
+																												no  -> Column c5: x >= 8?
+																														yes -> {0: 1}
+																														no  -> {1: 2}
+																										no  -> {1: 3}
+																								no  -> {0: 3}
+																				no  -> Column s1: x >= 2?
+																						yes -> {0: 2}
+																						no  -> Column s2: x >= 4?
+																								yes -> {3: 1}
+																								no  -> {0: 1}
+																no  -> Column s2: x >= 4?
+																		yes -> Column s3: x >= 4?
+																				yes -> Column c4: x >= 5?
+																						yes -> {1: 2}
+																						no  -> Column c1: x >= 5?
+																								yes -> {4: 1}
+																								no  -> {0: 1}
+																				no  -> Column s1: x >= 2?
+																						yes -> Column s5: x >= 2?
+																								yes -> Column c3: x >= 3?
+																										yes -> Column c2: x >= 7?
+																												yes -> {1: 2}
+																												no  -> Column s1: x >= 3?
+																														yes -> Column c3: x >= 5?
+																																yes -> Column c4: x >= 9?
+																																		yes -> {1: 1}
+																																		no  -> Column c1: x >= 3?
+																																				yes -> Column s1: x >= 4?
+																																						yes -> Column c1: x >= 5?
+																																								yes -> {2: 1}
+																																								no  -> {0: 2}
+																																						no  -> {2: 1}
+																																				no  -> {0: 1}
+																																no  -> {1: 2}
+																														no  -> {2: 2}
+																										no  -> {0: 2}
+																								no  -> {1: 2}
+																						no  -> Column s3: x >= 3?
+																								yes -> {1: 3}
+																								no  -> Column c2: x >= 7?
+																										yes -> {1: 1}
+																										no  -> {0: 3}
+																		no  -> Column c2: x >= 7?
+																				yes -> Column c5: x >= 6?
+																						yes -> Column s1: x >= 3?
+																								yes -> {0: 2}
+																								no  -> Column s2: x >= 3?
+																										yes -> {0: 1}
+																										no  -> {1: 3}
+																						no  -> Column s1: x >= 2?
+																								yes -> {2: 1}
+																								no  -> {1: 1}
+																				no  -> Column c3: x >= 7?
+																						yes -> Column s1: x >= 2?
+																								yes -> Column c4: x >= 7?
+																										yes -> Column s5: x >= 3?
+																												yes -> Column c1: x >= 4?
+																														yes -> Column s2: x >= 3?
+																																yes -> {8: 1}
+																																no  -> {4: 2}
+																														no  -> {0: 1}
+																												no  -> Column c1: x >= 4?
+																														yes -> {1: 2}
+																														no  -> Column c2: x >= 4?
+																																yes -> {0: 2}
+																																no  -> {1: 1}
+																										no  -> Column c5: x >= 7?
+																												yes -> Column s2: x >= 2?
+																														yes -> Column s3: x >= 3?
+																																yes -> {2: 3}
+																																no  -> {0: 1}
+																														no  -> {0: 2}
+																												no  -> Column s2: x >= 3?
+																														yes -> {0: 1}
+																														no  -> {1: 3}
+																								no  -> {1: 6}
+																						no  -> Column c5: x >= 7?
+																								yes -> Column c1: x >= 3?
+																										yes -> Column c4: x >= 3?
+																												yes -> Column c3: x >= 5?
+																														yes -> {1: 5}
+																														no  -> Column s1: x >= 3?
+																																yes -> {0: 4}
+																																no  -> Column s1: x >= 2?
+																																		yes -> {1: 2}
+																																		no  -> {0: 2}
+																												no  -> {0: 4}
+																										no  -> Column c4: x >= 3?
+																												yes -> {1: 3}
+																												no  -> {3: 2}
+																								no  -> Column s1: x >= 3?
+																										yes -> Column c4: x >= 9?
+																												yes -> Column c1: x >= 4?
+																														yes -> {3: 2}
+																														no  -> {1: 1}
+																												no  -> Column c3: x >= 3?
+																														yes -> {1: 2}
+																														no  -> Column s3: x >= 2?
+																																yes -> {2: 2}
+																																no  -> {1: 1}
+																										no  -> Column c1: x >= 3?
+																												yes -> Column c1: x >= 5?
+																														yes -> Column s1: x >= 2?
+																																yes -> {1: 1}
+																																no  -> {0: 1}
+																														no  -> {4: 1}
+																												no  -> Column s2: x >= 3?
+																														yes -> {2: 1}
+																														no  -> {8: 2}
+														no  -> Column c1: x >= 2?
+																yes -> Column s1: x >= 4?
+																		yes -> {1: 6}
+																		no  -> Column s4: x >= 2?
+																				yes -> Column c5: x >= 8?
+																						yes -> {0: 2}
+																						no  -> Column c1: x >= 7?
+																								yes -> {1: 3}
+																								no  -> Column s2: x >= 4?
+																										yes -> {0: 4}
+																										no  -> Column s2: x >= 3?
+																												yes -> {1: 2}
+																												no  -> Column c4: x >= 6?
+																														yes -> {0: 2}
+																														no  -> {1: 1}
+																				no  -> {0: 4}
+																no  -> Column s2: x >= 2?
+																		yes -> {1: 3}
+																		no  -> Column s1: x >= 3?
+																				yes -> {3: 1}
+																				no  -> {2: 1}
+						no  -> Column c3: x >= 8?
+								yes -> Column c2: x >= 7?
+										yes -> Column s1: x >= 4?
+												yes -> {0: 7}
+												no  -> Column s3: x >= 2?
+														yes -> Column s3: x >= 3?
+																yes -> Column s2: x >= 2?
+																		yes -> Column c1: x >= 7?
+																				yes -> {1: 1}
+																				no  -> Column c4: x >= 12?
+																						yes -> {0: 2}
+																						no  -> Column s2: x >= 4?
+																								yes -> Column c1: x >= 3?
+																										yes -> {0: 2}
+																										no  -> {1: 1}
+																								no  -> {1: 2}
+																		no  -> {0: 2}
+																no  -> {1: 2}
+														no  -> {0: 4}
+										no  -> {0: 127, 1: 84, 2: 13}
+								no  -> Column c4: x >= 8?
+										yes -> Column s2: x >= 3?
+												yes -> Column c2: x >= 7?
+														yes -> {0: 10}
+														no  -> {0: 31, 1: 38}
+												no  -> Column c5: x >= 2?
+														yes -> Column c2: x >= 5?
+																yes -> Column c4: x >= 12?
+																		yes -> {1: 4}
+																		no  -> Column s3: x >= 2?
+																				yes -> Column c5: x >= 4?
+																						yes -> {1: 3}
+																						no  -> Column c2: x >= 7?
+																								yes -> {1: 1}
+																								no  -> {0: 3}
+																				no  -> {0: 3}
+																no  -> Column s4: x >= 2?
+																		yes -> Column s3: x >= 4?
+																				yes -> Column c3: x >= 2?
+																						yes -> Column c2: x >= 3?
+																								yes -> {0: 3}
+																								no  -> Column c1: x >= 3?
+																										yes -> {1: 2}
+																										no  -> {0: 1}
+																						no  -> {1: 3}
+																				no  -> Column s1: x >= 4?
+																						yes -> {1: 1}
+																						no  -> Column c3: x >= 7?
+																								yes -> {0: 2}
+																								no  -> Column c4: x >= 12?
+																										yes -> Column s3: x >= 3?
+																												yes -> {3: 1}
+																												no  -> {0: 2}
+																										no  -> Column s3: x >= 2?
+																												yes -> {1: 4}
+																												no  -> {3: 2}
+																		no  -> {1: 5}
+														no  -> Column s1: x >= 2?
+																yes -> Column c2: x >= 4?
+																		yes -> Column c1: x >= 4?
+																				yes -> {0: 3}
+																				no  -> {1: 2}
+																		no  -> {1: 5}
+																no  -> Column s2: x >= 2?
+																		yes -> {3: 1}
+																		no  -> {2: 2}
+										no  -> Column c2: x >= 6?
+												yes -> Column s4: x >= 4?
+														yes -> Column s5: x >= 2?
+																yes -> {1: 10}
+																no  -> Column s1: x >= 3?
+																		yes -> {0: 1}
+																		no  -> {1: 2}
+														no  -> Column c4: x >= 3?
+																yes -> Column s2: x >= 4?
+																		yes -> Column c3: x >= 4?
+																				yes -> Column s4: x >= 2?
+																						yes -> Column c1: x >= 4?
+																								yes -> Column s1: x >= 2?
+																										yes -> {0: 1}
+																										no  -> {1: 1}
+																								no  -> {0: 3}
+																						no  -> {3: 2}
+																				no  -> {1: 6}
+																		no  -> Column c3: x >= 6?
+																				yes -> Column s2: x >= 2?
+																						yes -> {0: 2}
+																						no  -> {1: 1}
+																				no  -> Column c3: x >= 3?
+																						yes -> Column c4: x >= 6?
+																								yes -> {1: 3}
+																								no  -> Column s1: x >= 4?
+																										yes -> Column c1: x >= 7?
+																												yes -> {2: 1}
+																												no  -> {1: 1}
+																										no  -> {3: 2}
+																						no  -> {2: 3}
+																no  -> Column c1: x >= 4?
+																		yes -> {0: 4}
+																		no  -> {1: 4}
+												no  -> Column c1: x >= 6?
+														yes -> Column s2: x >= 3?
+																yes -> Column c3: x >= 2?
+																		yes -> Column c3: x >= 7?
+																				yes -> {0: 2}
+																				no  -> Column c4: x >= 4?
+																						yes -> {1: 4}
+																						no  -> Column c1: x >= 7?
+																								yes -> Column s5: x >= 2?
+																										yes -> Column c1: x >= 8?
+																												yes -> {0: 2}
+																												no  -> Column s1: x >= 3?
+																														yes -> Column c2: x >= 5?
+																																yes -> {1: 1}
+																																no  -> {0: 2}
+																														no  -> {1: 3}
+																										no  -> {1: 2}
+																								no  -> {0: 3}
+																		no  -> {0: 4}
+																no  -> Column s5: x >= 2?
+																		yes -> Column c3: x >= 5?
+																				yes -> Column c2: x >= 2?
+																						yes -> Column s3: x >= 2?
+																								yes -> {1: 3}
+																								no  -> {0: 1}
+																						no  -> {0: 2}
+																				no  -> Column s1: x >= 2?
+																						yes -> Column c2: x >= 3?
+																								yes -> Column s1: x >= 4?
+																										yes -> {2: 2}
+																										no  -> Column c5: x >= 3?
+																												yes -> {2: 1}
+																												no  -> {1: 3}
+																								no  -> {1: 1}
+																						no  -> {1: 1}
+																		no  -> Column c1: x >= 8?
+																				yes -> {1: 2}
+																				no  -> Column s2: x >= 2?
+																						yes -> Column c1: x >= 7?
+																								yes -> {6: 1}
+																								no  -> {1: 1}
+																						no  -> {0: 1}
+														no  -> Column c2: x >= 5?
+																yes -> Column s4: x >= 4?
+																		yes -> Column s2: x >= 4?
+																				yes -> {4: 2}
+																				no  -> {1: 1}
+																		no  -> {1: 9}
+																no  -> Column c3: x >= 6?
+																		yes -> Column c2: x >= 3?
+																				yes -> {1: 2}
+																				no  -> Column s1: x >= 2?
+																						yes -> Column s5: x >= 2?
+																								yes -> Column c3: x >= 7?
+																										yes -> Column c5: x >= 4?
+																												yes -> {1: 1}
+																												no  -> {2: 2}
+																										no  -> Column c1: x >= 3?
+																												yes -> Column c2: x >= 2?
+																														yes -> {0: 1}
+																														no  -> {1: 2}
+																												no  -> {0: 1}
+																								no  -> {0: 1}
+																						no  -> {1: 1}
+																		no  -> Column c4: x >= 6?
+																				yes -> Column c1: x >= 2?
+																						yes -> {1: 3}
+																						no  -> {0: 2}
+																				no  -> Column c5: x >= 4?
+																						yes -> Column c4: x >= 4?
+																								yes -> Column c2: x >= 4?
+																										yes -> {3: 2}
+																										no  -> {2: 1}
+																								no  -> {1: 3}
+																						no  -> Column s2: x >= 4?
+																								yes -> {2: 1}
+																								no  -> Column c1: x >= 5?
+																										yes -> {3: 1}
+																										no  -> Column c3: x >= 5?
+																												yes -> {4: 2}
+																												no  -> Column c4: x >= 5?
+																														yes -> {4: 1}
+																														no  -> Column c2: x >= 3?
+																																yes -> Column s1: x >= 4?
+																																		yes -> {6: 1}
+																																		no  -> {3: 2}
+																																no  -> Column c1: x >= 3?
+																																		yes -> {2: 2}
+																																		no  -> {6: 1}
